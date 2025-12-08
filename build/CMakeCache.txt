@@ -266,43 +266,59 @@ CalculatorProject_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 CalculatorProject_SOURCE_DIR:STATIC=C:/Users/priyanka.deshmukh/Documents/CalculatorProject
 
+//Directory under which to collect all populated content
+FETCHCONTENT_BASE_DIR:PATH=C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/_deps
+
+//Disables all attempts to download or update content and assumes
+// source dirs already exist
+FETCHCONTENT_FULLY_DISCONNECTED:BOOL=OFF
+
+//Enables QUIET option for all content population
+FETCHCONTENT_QUIET:BOOL=ON
+
+//When not empty, overrides where to find pre-populated content
+// for googletest
+FETCHCONTENT_SOURCE_DIR_GOOGLETEST:PATH=
+
+//Enables UPDATE_DISCONNECTED behavior for all content population
+FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
+
+//Enables UPDATE_DISCONNECTED behavior just for population of googletest
+FETCHCONTENT_UPDATES_DISCONNECTED_GOOGLETEST:BOOL=OFF
+
 //Use Abseil and RE2. Requires Abseil and RE2 to be separately
 // added to the build.
 GTEST_HAS_ABSL:BOOL=OFF
 
-//Enable installation of googletest. (Projects embedding googletest
-// may want to turn this OFF.)
-INSTALL_GTEST:BOOL=ON
-
 //Value Computed by CMake
-gmock_BINARY_DIR:STATIC=C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/external/googletest/googlemock
+gmock_BINARY_DIR:STATIC=C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/_deps/googletest-build/googlemock
 
 //Value Computed by CMake
 gmock_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-gmock_SOURCE_DIR:STATIC=C:/Users/priyanka.deshmukh/Documents/CalculatorProject/external/googletest/googlemock
+gmock_SOURCE_DIR:STATIC=C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/_deps/googletest-src/googlemock
 
 //Build all of Google Mock's own tests.
 gmock_build_tests:BOOL=OFF
 
 //Value Computed by CMake
-googletest-distribution_BINARY_DIR:STATIC=C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/external/googletest
+googletest-distribution_BINARY_DIR:STATIC=C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/_deps/googletest-build
 
 //Value Computed by CMake
 googletest-distribution_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-googletest-distribution_SOURCE_DIR:STATIC=C:/Users/priyanka.deshmukh/Documents/CalculatorProject/external/googletest
+googletest-distribution_SOURCE_DIR:STATIC=C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/_deps/googletest-src
 
 //Value Computed by CMake
-gtest_BINARY_DIR:STATIC=C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/external/googletest/googletest
+gtest_BINARY_DIR:STATIC=C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/_deps/googletest-build/googletest
 
 //Value Computed by CMake
 gtest_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-gtest_SOURCE_DIR:STATIC=C:/Users/priyanka.deshmukh/Documents/CalculatorProject/external/googletest/googletest
+gtest_SOURCE_DIR:STATIC=C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/_deps/googletest-src/googletest
 
 //Build gtest's sample programs.
 gtest_build_samples:BOOL=OFF
@@ -496,7 +512,6 @@ FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files/CalculatorProject
 cmake_package_name:INTERNAL=GTest
-generated_dir:INTERNAL=C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/external/googletest/googletest/generated
 //ADVANCED property for variable: gmock_build_tests
 gmock_build_tests-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: gtest_build_samples
@@ -509,5 +524,4 @@ gtest_disable_pthreads-ADVANCED:INTERNAL=1
 gtest_force_shared_crt-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: gtest_hide_internal_symbols
 gtest_hide_internal_symbols-ADVANCED:INTERNAL=1
-targets_export_name:INTERNAL=GTestTargets
 

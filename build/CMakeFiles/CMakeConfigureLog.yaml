@@ -53,6 +53,7 @@ events:
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\condabin"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
@@ -64,7 +65,7 @@ events:
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\bin"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\mingw-w64"
         - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin"
+        - "C:\\Users\\priyanka.deshmukh\\.dnx\\bin"
         - "C:\\Program Files\\Microsoft DNX\\Dnvm\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
@@ -122,7 +123,7 @@ events:
       Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
       Copyright (C) Microsoft Corporation. All rights reserved.
       
-      Build started 12/8/2025 9:33:29 AM.
+      Build started 12/8/2025 3:15:58 PM.
       Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\4.2.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
@@ -148,7 +149,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.75
+      Time Elapsed 00:00:00.84
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -198,6 +199,7 @@ events:
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/Tools/"
       - "C:/Users/priyanka.deshmukh/Anaconda3/condabin/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.17.10-hotspot/bin/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
@@ -209,7 +211,7 @@ events:
       - "C:/Users/priyanka.deshmukh/Anaconda3/Library/bin/"
       - "C:/Users/priyanka.deshmukh/Anaconda3/Library/mingw-w64/"
       - "C:/Windows/System32/OpenSSH/"
-      - "C:/Windows/System32/config/systemprofile/.dnx/bin/"
+      - "C:/Users/priyanka.deshmukh/.dnx/bin/"
       - "C:/Program Files/Microsoft DNX/Dnvm/"
       - "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -258,6 +260,7 @@ events:
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\condabin"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
@@ -269,7 +272,7 @@ events:
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\bin"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\mingw-w64"
         - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin"
+        - "C:\\Users\\priyanka.deshmukh\\.dnx\\bin"
         - "C:\\Program Files\\Microsoft DNX\\Dnvm\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
@@ -340,6 +343,7 @@ events:
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/Tools/"
       - "C:/Users/priyanka.deshmukh/Anaconda3/condabin/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.17.10-hotspot/bin/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
@@ -351,7 +355,7 @@ events:
       - "C:/Users/priyanka.deshmukh/Anaconda3/Library/bin/"
       - "C:/Users/priyanka.deshmukh/Anaconda3/Library/mingw-w64/"
       - "C:/Windows/System32/OpenSSH/"
-      - "C:/Windows/System32/config/systemprofile/.dnx/bin/"
+      - "C:/Users/priyanka.deshmukh/.dnx/bin/"
       - "C:/Program Files/Microsoft DNX/Dnvm/"
       - "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -432,6 +436,9 @@ events:
       - "C:/Users/priyanka.deshmukh/Anaconda3/condabin/lld-link.com"
       - "C:/Users/priyanka.deshmukh/Anaconda3/condabin/lld-link.exe"
       - "C:/Users/priyanka.deshmukh/Anaconda3/condabin/lld-link"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.17.10-hotspot/bin/lld-link.com"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.17.10-hotspot/bin/lld-link.exe"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.17.10-hotspot/bin/lld-link"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link"
@@ -465,9 +472,9 @@ events:
       - "C:/Windows/System32/OpenSSH/lld-link.com"
       - "C:/Windows/System32/OpenSSH/lld-link.exe"
       - "C:/Windows/System32/OpenSSH/lld-link"
-      - "C:/Windows/System32/config/systemprofile/.dnx/bin/lld-link.com"
-      - "C:/Windows/System32/config/systemprofile/.dnx/bin/lld-link.exe"
-      - "C:/Windows/System32/config/systemprofile/.dnx/bin/lld-link"
+      - "C:/Users/priyanka.deshmukh/.dnx/bin/lld-link.com"
+      - "C:/Users/priyanka.deshmukh/.dnx/bin/lld-link.exe"
+      - "C:/Users/priyanka.deshmukh/.dnx/bin/lld-link"
       - "C:/Program Files/Microsoft DNX/Dnvm/lld-link.com"
       - "C:/Program Files/Microsoft DNX/Dnvm/lld-link.exe"
       - "C:/Program Files/Microsoft DNX/Dnvm/lld-link"
@@ -564,6 +571,7 @@ events:
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\condabin"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
@@ -575,7 +583,7 @@ events:
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\bin"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\mingw-w64"
         - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin"
+        - "C:\\Users\\priyanka.deshmukh\\.dnx\\bin"
         - "C:\\Program Files\\Microsoft DNX\\Dnvm\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
@@ -644,6 +652,7 @@ events:
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/Tools/"
       - "C:/Users/priyanka.deshmukh/Anaconda3/condabin/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.17.10-hotspot/bin/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
@@ -655,7 +664,7 @@ events:
       - "C:/Users/priyanka.deshmukh/Anaconda3/Library/bin/"
       - "C:/Users/priyanka.deshmukh/Anaconda3/Library/mingw-w64/"
       - "C:/Windows/System32/OpenSSH/"
-      - "C:/Windows/System32/config/systemprofile/.dnx/bin/"
+      - "C:/Users/priyanka.deshmukh/.dnx/bin/"
       - "C:/Program Files/Microsoft DNX/Dnvm/"
       - "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -704,6 +713,7 @@ events:
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\condabin"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
@@ -715,7 +725,7 @@ events:
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\bin"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\mingw-w64"
         - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin"
+        - "C:\\Users\\priyanka.deshmukh\\.dnx\\bin"
         - "C:\\Program Files\\Microsoft DNX\\Dnvm\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
@@ -784,6 +794,7 @@ events:
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/Tools/"
       - "C:/Users/priyanka.deshmukh/Anaconda3/condabin/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.17.10-hotspot/bin/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
@@ -795,7 +806,7 @@ events:
       - "C:/Users/priyanka.deshmukh/Anaconda3/Library/bin/"
       - "C:/Users/priyanka.deshmukh/Anaconda3/Library/mingw-w64/"
       - "C:/Windows/System32/OpenSSH/"
-      - "C:/Windows/System32/config/systemprofile/.dnx/bin/"
+      - "C:/Users/priyanka.deshmukh/.dnx/bin/"
       - "C:/Program Files/Microsoft DNX/Dnvm/"
       - "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -877,6 +888,7 @@ events:
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\condabin"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
@@ -888,7 +900,7 @@ events:
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\bin"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\mingw-w64"
         - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin"
+        - "C:\\Users\\priyanka.deshmukh\\.dnx\\bin"
         - "C:\\Program Files\\Microsoft DNX\\Dnvm\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
@@ -957,6 +969,7 @@ events:
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/Tools/"
       - "C:/Users/priyanka.deshmukh/Anaconda3/condabin/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.17.10-hotspot/bin/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
@@ -968,7 +981,7 @@ events:
       - "C:/Users/priyanka.deshmukh/Anaconda3/Library/bin/"
       - "C:/Users/priyanka.deshmukh/Anaconda3/Library/mingw-w64/"
       - "C:/Windows/System32/OpenSSH/"
-      - "C:/Windows/System32/config/systemprofile/.dnx/bin/"
+      - "C:/Users/priyanka.deshmukh/.dnx/bin/"
       - "C:/Program Files/Microsoft DNX/Dnvm/"
       - "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -1017,6 +1030,7 @@ events:
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\condabin"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
@@ -1028,7 +1042,7 @@ events:
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\bin"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\mingw-w64"
         - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin"
+        - "C:\\Users\\priyanka.deshmukh\\.dnx\\bin"
         - "C:\\Program Files\\Microsoft DNX\\Dnvm\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
@@ -1100,6 +1114,7 @@ events:
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/Tools/"
       - "C:/Users/priyanka.deshmukh/Anaconda3/condabin/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.17.10-hotspot/bin/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
@@ -1111,7 +1126,7 @@ events:
       - "C:/Users/priyanka.deshmukh/Anaconda3/Library/bin/"
       - "C:/Users/priyanka.deshmukh/Anaconda3/Library/mingw-w64/"
       - "C:/Windows/System32/OpenSSH/"
-      - "C:/Windows/System32/config/systemprofile/.dnx/bin/"
+      - "C:/Users/priyanka.deshmukh/.dnx/bin/"
       - "C:/Program Files/Microsoft DNX/Dnvm/"
       - "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -1205,6 +1220,7 @@ events:
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\condabin"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
@@ -1216,7 +1232,7 @@ events:
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\bin"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\mingw-w64"
         - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin"
+        - "C:\\Users\\priyanka.deshmukh\\.dnx\\bin"
         - "C:\\Program Files\\Microsoft DNX\\Dnvm\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
@@ -1262,8 +1278,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-i2qcqm"
-      binary: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-i2qcqm"
+      source: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-hn5b4v"
+      binary: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-hn5b4v"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1273,38 +1289,38 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-i2qcqm'
+        Change Dir: 'C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-hn5b4v'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_e07f3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_95881.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 12/8/2025 9:33:31 AM.
-        Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i2qcqm\\cmTC_e07f3.vcxproj" on node 1 (default targets).
+        Build started 12/8/2025 3:16:00 PM.
+        Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hn5b4v\\cmTC_95881.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i2qcqm\\Debug\\".
-          Creating directory "cmTC_e07f3.dir\\Debug\\cmTC_e07f3.tlog\\".
+          Creating directory "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hn5b4v\\Debug\\".
+          Creating directory "cmTC_95881.dir\\Debug\\cmTC_95881.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_e07f3.dir\\Debug\\cmTC_e07f3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_95881.dir\\Debug\\cmTC_95881.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_e07f3.dir\\Debug\\\\" /Fd"cmTC_e07f3.dir\\Debug\\vc142.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_95881.dir\\Debug\\\\" /Fd"cmTC_95881.dir\\Debug\\vc142.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           CMakeCXXCompilerABI.cpp
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_e07f3.dir\\Debug\\\\" /Fd"cmTC_e07f3.dir\\Debug\\vc142.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_95881.dir\\Debug\\\\" /Fd"cmTC_95881.dir\\Debug\\vc142.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i2qcqm\\Debug\\cmTC_e07f3.exe" /INCREMENTAL /ILK:"cmTC_e07f3.dir\\Debug\\cmTC_e07f3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-i2qcqm/Debug/cmTC_e07f3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-i2qcqm/Debug/cmTC_e07f3.lib" /MACHINE:X64  /machine:x64 cmTC_e07f3.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_e07f3.vcxproj -> C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i2qcqm\\Debug\\cmTC_e07f3.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hn5b4v\\Debug\\cmTC_95881.exe" /INCREMENTAL /ILK:"cmTC_95881.dir\\Debug\\cmTC_95881.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-hn5b4v/Debug/cmTC_95881.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-hn5b4v/Debug/cmTC_95881.lib" /MACHINE:X64  /machine:x64 cmTC_95881.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_95881.vcxproj -> C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hn5b4v\\Debug\\cmTC_95881.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_e07f3.dir\\Debug\\cmTC_e07f3.tlog\\unsuccessfulbuild".
-          Touching "cmTC_e07f3.dir\\Debug\\cmTC_e07f3.tlog\\cmTC_e07f3.lastbuildstate".
-        Done Building Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i2qcqm\\cmTC_e07f3.vcxproj" (default targets).
+          Deleting file "cmTC_95881.dir\\Debug\\cmTC_95881.tlog\\unsuccessfulbuild".
+          Touching "cmTC_95881.dir\\Debug\\cmTC_95881.tlog\\cmTC_95881.lastbuildstate".
+        Done Building Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hn5b4v\\cmTC_95881.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.57
+        Time Elapsed 00:00:00.66
         
       exitCode: 0
   -
@@ -1343,7 +1359,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "external/googletest/CMakeLists.txt:6 (project)"
+      - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -1380,6 +1396,7 @@ events:
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\condabin"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
@@ -1391,7 +1408,7 @@ events:
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\bin"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\mingw-w64"
         - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin"
+        - "C:\\Users\\priyanka.deshmukh\\.dnx\\bin"
         - "C:\\Program Files\\Microsoft DNX\\Dnvm\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
@@ -1443,7 +1460,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "external/googletest/CMakeLists.txt:6 (project)"
+      - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
       Compiler:  
@@ -1455,7 +1472,7 @@ events:
       Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
       Copyright (C) Microsoft Corporation. All rights reserved.
       
-      Build started 12/8/2025 9:33:32 AM.
+      Build started 12/8/2025 3:16:06 PM.
       Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\4.2.0\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
@@ -1481,7 +1498,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.65
+      Time Elapsed 00:00:00.72
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -1498,7 +1515,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
-      - "external/googletest/CMakeLists.txt:6 (project)"
+      - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
     mode: "program"
     variable: "_CMAKE_TOOL_WITH_PATH"
     description: "Path to a program."
@@ -1531,6 +1548,7 @@ events:
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/Tools/"
       - "C:/Users/priyanka.deshmukh/Anaconda3/condabin/"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.17.10-hotspot/bin/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
@@ -1542,7 +1560,7 @@ events:
       - "C:/Users/priyanka.deshmukh/Anaconda3/Library/bin/"
       - "C:/Users/priyanka.deshmukh/Anaconda3/Library/mingw-w64/"
       - "C:/Windows/System32/OpenSSH/"
-      - "C:/Windows/System32/config/systemprofile/.dnx/bin/"
+      - "C:/Users/priyanka.deshmukh/.dnx/bin/"
       - "C:/Program Files/Microsoft DNX/Dnvm/"
       - "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Microsoft VS Code/bin/"
@@ -1635,6 +1653,9 @@ events:
       - "C:/Users/priyanka.deshmukh/Anaconda3/condabin/lld-link.com"
       - "C:/Users/priyanka.deshmukh/Anaconda3/condabin/lld-link.exe"
       - "C:/Users/priyanka.deshmukh/Anaconda3/condabin/lld-link"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.17.10-hotspot/bin/lld-link.com"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.17.10-hotspot/bin/lld-link.exe"
+      - "C:/Program Files/Eclipse Adoptium/jdk-17.0.17.10-hotspot/bin/lld-link"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link"
@@ -1668,9 +1689,9 @@ events:
       - "C:/Windows/System32/OpenSSH/lld-link.com"
       - "C:/Windows/System32/OpenSSH/lld-link.exe"
       - "C:/Windows/System32/OpenSSH/lld-link"
-      - "C:/Windows/System32/config/systemprofile/.dnx/bin/lld-link.com"
-      - "C:/Windows/System32/config/systemprofile/.dnx/bin/lld-link.exe"
-      - "C:/Windows/System32/config/systemprofile/.dnx/bin/lld-link"
+      - "C:/Users/priyanka.deshmukh/.dnx/bin/lld-link.com"
+      - "C:/Users/priyanka.deshmukh/.dnx/bin/lld-link.exe"
+      - "C:/Users/priyanka.deshmukh/.dnx/bin/lld-link"
       - "C:/Program Files/Microsoft DNX/Dnvm/lld-link.com"
       - "C:/Program Files/Microsoft DNX/Dnvm/lld-link.exe"
       - "C:/Program Files/Microsoft DNX/Dnvm/lld-link"
@@ -1803,6 +1824,7 @@ events:
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\condabin"
+        - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
@@ -1814,7 +1836,7 @@ events:
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\bin"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\mingw-w64"
         - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:\\Windows\\system32\\config\\systemprofile\\.dnx\\bin"
+        - "C:\\Users\\priyanka.deshmukh\\.dnx\\bin"
         - "C:\\Program Files\\Microsoft DNX\\Dnvm\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
@@ -1856,12 +1878,12 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "external/googletest/CMakeLists.txt:6 (project)"
+      - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-aqcmwn"
-      binary: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-aqcmwn"
+      source: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-5aoju5"
+      binary: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-5aoju5"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1870,38 +1892,38 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-aqcmwn'
+        Change Dir: 'C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-5aoju5'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_862d3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_b0d32.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 12/8/2025 9:33:33 AM.
-        Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aqcmwn\\cmTC_862d3.vcxproj" on node 1 (default targets).
+        Build started 12/8/2025 3:16:08 PM.
+        Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5aoju5\\cmTC_b0d32.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aqcmwn\\Debug\\".
-          Creating directory "cmTC_862d3.dir\\Debug\\cmTC_862d3.tlog\\".
+          Creating directory "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5aoju5\\Debug\\".
+          Creating directory "cmTC_b0d32.dir\\Debug\\cmTC_b0d32.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_862d3.dir\\Debug\\cmTC_862d3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_b0d32.dir\\Debug\\cmTC_b0d32.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_862d3.dir\\Debug\\\\" /Fd"cmTC_862d3.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_b0d32.dir\\Debug\\\\" /Fd"cmTC_b0d32.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
-          CMakeCCompilerABI.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_862d3.dir\\Debug\\\\" /Fd"cmTC_862d3.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_b0d32.dir\\Debug\\\\" /Fd"cmTC_b0d32.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aqcmwn\\Debug\\cmTC_862d3.exe" /INCREMENTAL /ILK:"cmTC_862d3.dir\\Debug\\cmTC_862d3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-aqcmwn/Debug/cmTC_862d3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-aqcmwn/Debug/cmTC_862d3.lib" /MACHINE:X64  /machine:x64 cmTC_862d3.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_862d3.vcxproj -> C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aqcmwn\\Debug\\cmTC_862d3.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5aoju5\\Debug\\cmTC_b0d32.exe" /INCREMENTAL /ILK:"cmTC_b0d32.dir\\Debug\\cmTC_b0d32.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-5aoju5/Debug/cmTC_b0d32.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-5aoju5/Debug/cmTC_b0d32.lib" /MACHINE:X64  /machine:x64 cmTC_b0d32.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_b0d32.vcxproj -> C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5aoju5\\Debug\\cmTC_b0d32.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_862d3.dir\\Debug\\cmTC_862d3.tlog\\unsuccessfulbuild".
-          Touching "cmTC_862d3.dir\\Debug\\cmTC_862d3.tlog\\cmTC_862d3.lastbuildstate".
-        Done Building Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aqcmwn\\cmTC_862d3.vcxproj" (default targets).
+          Deleting file "cmTC_b0d32.dir\\Debug\\cmTC_b0d32.tlog\\unsuccessfulbuild".
+          Touching "cmTC_b0d32.dir\\Debug\\cmTC_b0d32.tlog\\cmTC_b0d32.lastbuildstate".
+        Done Building Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5aoju5\\cmTC_b0d32.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.59
+        Time Elapsed 00:00:00.66
         
       exitCode: 0
   -
@@ -1909,7 +1931,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "external/googletest/CMakeLists.txt:6 (project)"
+      - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
@@ -1927,7 +1949,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "external/googletest/CMakeLists.txt:6 (project)"
+      - "build/_deps/googletest-src/CMakeLists.txt:6 (project)"
     message: |
       Running the C compiler's linker: "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.29.30159.0
@@ -1939,13 +1961,13 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:160 (check_c_source_compiles)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:226 (_threads_check_libc)"
-      - "external/googletest/googletest/cmake/internal_utils.cmake:66 (find_package)"
-      - "external/googletest/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-ctuquc"
-      binary: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-ctuquc"
+      source: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-y5xpja"
+      binary: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-y5xpja"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1954,38 +1976,38 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-ctuquc'
+        Change Dir: 'C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-y5xpja'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_2b65c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_b3850.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 12/8/2025 9:33:35 AM.
-        Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ctuquc\\cmTC_2b65c.vcxproj" on node 1 (default targets).
+        Build started 12/8/2025 3:16:09 PM.
+        Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5xpja\\cmTC_b3850.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ctuquc\\Debug\\".
-          Creating directory "cmTC_2b65c.dir\\Debug\\cmTC_2b65c.tlog\\".
+          Creating directory "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5xpja\\Debug\\".
+          Creating directory "cmTC_b3850.dir\\Debug\\cmTC_b3850.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_2b65c.dir\\Debug\\cmTC_2b65c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_b3850.dir\\Debug\\cmTC_b3850.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_2b65c.dir\\Debug\\\\" /Fd"cmTC_2b65c.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ctuquc\\src.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_b3850.dir\\Debug\\\\" /Fd"cmTC_b3850.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5xpja\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           src.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_2b65c.dir\\Debug\\\\" /Fd"cmTC_2b65c.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ctuquc\\src.c"
-        C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ctuquc\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ctuquc\\cmTC_2b65c.vcxproj]
-        Done Building Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ctuquc\\cmTC_2b65c.vcxproj" (default targets) -- FAILED.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_b3850.dir\\Debug\\\\" /Fd"cmTC_b3850.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5xpja\\src.c"
+        C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5xpja\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5xpja\\cmTC_b3850.vcxproj]
+        Done Building Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5xpja\\cmTC_b3850.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ctuquc\\cmTC_2b65c.vcxproj" (default target) (1) ->
+        "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5xpja\\cmTC_b3850.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ctuquc\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ctuquc\\cmTC_2b65c.vcxproj]
+          C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5xpja\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5xpja\\cmTC_b3850.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.42
+        Time Elapsed 00:00:00.39
         
       exitCode: 1
   -
@@ -1994,13 +2016,13 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckLibraryExists.cmake:154 (try_compile)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:175 (check_library_exists)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:238 (_threads_check_lib)"
-      - "external/googletest/googletest/cmake/internal_utils.cmake:66 (find_package)"
-      - "external/googletest/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-i4lgcp"
-      binary: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-i4lgcp"
+      source: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-1mrd8k"
+      binary: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-1mrd8k"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -2009,35 +2031,35 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-i4lgcp'
+        Change Dir: 'C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-1mrd8k'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_15474.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_6b039.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 12/8/2025 9:33:35 AM.
-        Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4lgcp\\cmTC_15474.vcxproj" on node 1 (default targets).
+        Build started 12/8/2025 3:16:10 PM.
+        Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1mrd8k\\cmTC_6b039.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4lgcp\\Debug\\".
-          Creating directory "cmTC_15474.dir\\Debug\\cmTC_15474.tlog\\".
+          Creating directory "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1mrd8k\\Debug\\".
+          Creating directory "cmTC_6b039.dir\\Debug\\cmTC_6b039.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_15474.dir\\Debug\\cmTC_15474.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_6b039.dir\\Debug\\cmTC_6b039.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_15474.dir\\Debug\\\\" /Fd"cmTC_15474.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4lgcp\\CheckFunctionExists.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_6b039.dir\\Debug\\\\" /Fd"cmTC_6b039.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1mrd8k\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           CheckFunctionExists.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_15474.dir\\Debug\\\\" /Fd"cmTC_15474.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4lgcp\\CheckFunctionExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_6b039.dir\\Debug\\\\" /Fd"cmTC_6b039.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1mrd8k\\CheckFunctionExists.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4lgcp\\Debug\\cmTC_15474.exe" /INCREMENTAL /ILK:"cmTC_15474.dir\\Debug\\cmTC_15474.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-i4lgcp/Debug/cmTC_15474.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-i4lgcp/Debug/cmTC_15474.lib" /MACHINE:X64  /machine:x64 cmTC_15474.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4lgcp\\cmTC_15474.vcxproj]
-        Done Building Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4lgcp\\cmTC_15474.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1mrd8k\\Debug\\cmTC_6b039.exe" /INCREMENTAL /ILK:"cmTC_6b039.dir\\Debug\\cmTC_6b039.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-1mrd8k/Debug/cmTC_6b039.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-1mrd8k/Debug/cmTC_6b039.lib" /MACHINE:X64  /machine:x64 cmTC_6b039.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1mrd8k\\cmTC_6b039.vcxproj]
+        Done Building Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1mrd8k\\cmTC_6b039.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4lgcp\\cmTC_15474.vcxproj" (default target) (1) ->
+        "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1mrd8k\\cmTC_6b039.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-i4lgcp\\cmTC_15474.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1mrd8k\\cmTC_6b039.vcxproj]
         
             0 Warning(s)
             1 Error(s)
@@ -2051,13 +2073,13 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CheckLibraryExists.cmake:154 (try_compile)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:175 (check_library_exists)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindThreads.cmake:239 (_threads_check_lib)"
-      - "external/googletest/googletest/cmake/internal_utils.cmake:66 (find_package)"
-      - "external/googletest/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
+      - "build/_deps/googletest-src/googletest/cmake/internal_utils.cmake:66 (find_package)"
+      - "build/_deps/googletest-src/googletest/CMakeLists.txt:83 (config_compiler_and_linker)"
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-r5ljkx"
-      binary: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-r5ljkx"
+      source: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-v40v3b"
+      binary: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-v40v3b"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -2066,40 +2088,40 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-r5ljkx'
+        Change Dir: 'C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-v40v3b'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_7e625.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_2dd45.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 12/8/2025 9:33:36 AM.
-        Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r5ljkx\\cmTC_7e625.vcxproj" on node 1 (default targets).
+        Build started 12/8/2025 3:16:11 PM.
+        Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v40v3b\\cmTC_2dd45.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r5ljkx\\Debug\\".
-          Creating directory "cmTC_7e625.dir\\Debug\\cmTC_7e625.tlog\\".
+          Creating directory "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v40v3b\\Debug\\".
+          Creating directory "cmTC_2dd45.dir\\Debug\\cmTC_2dd45.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_7e625.dir\\Debug\\cmTC_7e625.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_2dd45.dir\\Debug\\cmTC_2dd45.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_7e625.dir\\Debug\\\\" /Fd"cmTC_7e625.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r5ljkx\\CheckFunctionExists.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_2dd45.dir\\Debug\\\\" /Fd"cmTC_2dd45.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v40v3b\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           CheckFunctionExists.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_7e625.dir\\Debug\\\\" /Fd"cmTC_7e625.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r5ljkx\\CheckFunctionExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_2dd45.dir\\Debug\\\\" /Fd"cmTC_2dd45.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v40v3b\\CheckFunctionExists.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r5ljkx\\Debug\\cmTC_7e625.exe" /INCREMENTAL /ILK:"cmTC_7e625.dir\\Debug\\cmTC_7e625.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-r5ljkx/Debug/cmTC_7e625.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-r5ljkx/Debug/cmTC_7e625.lib" /MACHINE:X64  /machine:x64 cmTC_7e625.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r5ljkx\\cmTC_7e625.vcxproj]
-        Done Building Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r5ljkx\\cmTC_7e625.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v40v3b\\Debug\\cmTC_2dd45.exe" /INCREMENTAL /ILK:"cmTC_2dd45.dir\\Debug\\cmTC_2dd45.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-v40v3b/Debug/cmTC_2dd45.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-v40v3b/Debug/cmTC_2dd45.lib" /MACHINE:X64  /machine:x64 cmTC_2dd45.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v40v3b\\cmTC_2dd45.vcxproj]
+        Done Building Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v40v3b\\cmTC_2dd45.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r5ljkx\\cmTC_7e625.vcxproj" (default target) (1) ->
+        "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v40v3b\\cmTC_2dd45.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-r5ljkx\\cmTC_7e625.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v40v3b\\cmTC_2dd45.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.52
+        Time Elapsed 00:00:00.54
         
       exitCode: 1
 ...

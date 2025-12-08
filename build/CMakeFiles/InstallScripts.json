@@ -2,9 +2,9 @@
 	"InstallScripts" : 
 	[
 		"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/cmake_install.cmake",
-		"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/external/googletest/cmake_install.cmake",
-		"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/external/googletest/googlemock/cmake_install.cmake",
-		"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/external/googletest/googletest/cmake_install.cmake"
+		"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/_deps/googletest-build/cmake_install.cmake",
+		"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/_deps/googletest-build/googletest/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

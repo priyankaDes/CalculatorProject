@@ -1,5 +1,5 @@
-CalculatorTest.Add 1 0.047872
-CalculatorTest.Sub 1 0.0232579
-CalculatorTest.Mul 1 0.0235839
-CalculatorTest.Div 1 0.0251902
+CalculatorTest.Add 1 0.0482681
+CalculatorTest.Sub 1 0.0264926
+CalculatorTest.Mul 1 0.0276269
+CalculatorTest.Div 1 0.025453
 ---

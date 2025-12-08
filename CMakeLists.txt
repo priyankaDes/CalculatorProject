@@ -5,7 +5,16 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Add GoogleTest
-add_subdirectory(external/googletest)
+include(FetchContent)
+
+FetchContent_Declare(
+  googletest
+  URL https://github.com/google/googletest/archive/refs/heads/main.zip
+)
+
+set(INSTALL_GTEST OFF)
+FetchContent_MakeAvailable(googletest)
+
 enable_testing()
 
 # Our library
