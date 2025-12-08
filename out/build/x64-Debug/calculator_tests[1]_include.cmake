@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/out/build/x64-Debug/calculator_tests[1]_tests.cmake")
+  include("C:/Users/priyanka.deshmukh/Documents/CalculatorProject/out/build/x64-Debug/calculator_tests[1]_tests.cmake")
+else()
+  add_test(calculator_tests_NOT_BUILT calculator_tests_NOT_BUILT)
+endif()

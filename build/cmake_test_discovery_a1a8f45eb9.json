@@ -1,0 +1,32 @@
+{
+  "tests": 4,
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "CalculatorTest",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "Add",
+          "file": "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\tests\\test_calculator.cpp",
+          "line": 4
+        },
+        {
+          "name": "Sub",
+          "file": "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\tests\\test_calculator.cpp",
+          "line": 9
+        },
+        {
+          "name": "Mul",
+          "file": "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\tests\\test_calculator.cpp",
+          "line": 14
+        },
+        {
+          "name": "Div",
+          "file": "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\tests\\test_calculator.cpp",
+          "line": 19
+        }
+      ]
+    }
+  ]
+}
