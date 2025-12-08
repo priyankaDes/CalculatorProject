@@ -4,32 +4,43 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                checkout scm
+                git branch: 'master',
+                    url: 'https://github.com/priyankaDes/Calculator.git'
             }
         }
 
-        stage('Configure') {
+        stage('Configure CMake') {
             steps {
-                bat 'cmake -S . -B build -A x64'
+                bat '''
+                    mkdir build
+                    cd build
+                    cmake .. -A x64
+                '''
             }
         }
 
         stage('Build') {
             steps {
-                bat 'cmake --build build --config Debug'
+                bat '''
+                    cd build
+                    cmake --build . --config Debug
+                '''
             }
         }
 
         stage('Run Tests') {
             steps {
-                bat 'cd build/Debug && calculator_tests.exe --gtest_output=xml:test_results.xml'
+                bat '''
+                    cd build
+                    ctest -C Debug --output-on-failure
+                '''
             }
         }
+    }
 
-        stage('Publish Test Report') {
-            steps {
-                junit 'build/Debug/test_results.xml'
-            }
+    post {
+        always {
+            junit 'build/**/*.xml'
         }
     }
 }
