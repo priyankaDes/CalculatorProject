@@ -34,7 +34,7 @@ pipeline {
             steps {
                 bat '''
                     cd build
-                    ctest -C Debug --output-on-failure
+                    ctest -C Debug --output-on-failure --no-compress-output --test-output-junit junit_results.xml
                 '''
             }
         }
@@ -42,7 +42,7 @@ pipeline {
 
     post {
         always {
-            junit 'build/**/*.xml'
+            junit 'build/junit_results.xml'
         }
     }
 }
