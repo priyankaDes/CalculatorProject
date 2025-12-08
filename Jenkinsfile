@@ -33,8 +33,8 @@ pipeline {
         stage('Run Tests') {
             steps {
                 bat '''
-                    cd build
-                    ctest -C Debug --output-on-failure --no-compress-output --test-output-junit junit_results.xml
+                    cd build\\Debug
+                    calculator_tests.exe --gtest_output=xml:test_results.xml
                 '''
             }
         }
@@ -42,7 +42,7 @@ pipeline {
 
     post {
         always {
-            junit 'build/junit_results.xml'
+            junit 'build/Debug/test_results.xml'
         }
     }
 }
