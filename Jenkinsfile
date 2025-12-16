@@ -25,7 +25,7 @@ pipeline {
             steps {
                 bat '''
                     cd build
-                    cmake --build . --config Debug
+                    cmake --build . --config Debug 
                 '''
             }
         }

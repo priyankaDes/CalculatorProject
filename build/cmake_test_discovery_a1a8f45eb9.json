@@ -1,5 +1,5 @@
 {
-  "tests": 4,
+  "tests": 5,
   "name": "AllTests",
   "testsuites": [
     {
@@ -25,6 +25,17 @@
           "name": "Div",
           "file": "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\tests\\test_calculator.cpp",
           "line": 19
+        }
+      ]
+    },
+    {
+      "name": "CalcultorTest",
+      "tests": 1,
+      "testsuite": [
+        {
+          "name": "fib",
+          "file": "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\tests\\test_calculator.cpp",
+          "line": 24
         }
       ]
     }

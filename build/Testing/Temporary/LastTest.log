@@ -1,10 +1,10 @@
-Start testing: Dec 08 15:16 Pacific Standard Time
+Start testing: Dec 16 11:46 Pacific Standard Time
 ----------------------------------------------------------
-1/4 Testing: CalculatorTest.Add
-1/4 Test: CalculatorTest.Add
+1/5 Testing: CalculatorTest.Add
+1/5 Test: CalculatorTest.Add
 Command: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/Debug/calculator_tests.exe" "--gtest_filter=CalculatorTest.Add" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build
-"CalculatorTest.Add" start time: Dec 08 15:16 Pacific Standard Time
+"CalculatorTest.Add" start time: Dec 16 11:46 Pacific Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\priyanka.deshmukh\Documents\CalculatorProject\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -20,18 +20,18 @@ Note: Google Test filter = CalculatorTest.Add
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.05 sec
+Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"CalculatorTest.Add" end time: Dec 08 15:16 Pacific Standard Time
+"CalculatorTest.Add" end time: Dec 16 11:46 Pacific Standard Time
 "CalculatorTest.Add" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/4 Testing: CalculatorTest.Sub
-2/4 Test: CalculatorTest.Sub
+2/5 Testing: CalculatorTest.Sub
+2/5 Test: CalculatorTest.Sub
 Command: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/Debug/calculator_tests.exe" "--gtest_filter=CalculatorTest.Sub" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build
-"CalculatorTest.Sub" start time: Dec 08 15:16 Pacific Standard Time
+"CalculatorTest.Sub" start time: Dec 16 11:46 Pacific Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\priyanka.deshmukh\Documents\CalculatorProject\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -50,15 +50,15 @@ Note: Google Test filter = CalculatorTest.Sub
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"CalculatorTest.Sub" end time: Dec 08 15:16 Pacific Standard Time
+"CalculatorTest.Sub" end time: Dec 16 11:46 Pacific Standard Time
 "CalculatorTest.Sub" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/4 Testing: CalculatorTest.Mul
-3/4 Test: CalculatorTest.Mul
+3/5 Testing: CalculatorTest.Mul
+3/5 Test: CalculatorTest.Mul
 Command: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/Debug/calculator_tests.exe" "--gtest_filter=CalculatorTest.Mul" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build
-"CalculatorTest.Mul" start time: Dec 08 15:16 Pacific Standard Time
+"CalculatorTest.Mul" start time: Dec 16 11:46 Pacific Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\priyanka.deshmukh\Documents\CalculatorProject\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -77,15 +77,15 @@ Note: Google Test filter = CalculatorTest.Mul
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"CalculatorTest.Mul" end time: Dec 08 15:16 Pacific Standard Time
+"CalculatorTest.Mul" end time: Dec 16 11:46 Pacific Standard Time
 "CalculatorTest.Mul" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-4/4 Testing: CalculatorTest.Div
-4/4 Test: CalculatorTest.Div
+4/5 Testing: CalculatorTest.Div
+4/5 Test: CalculatorTest.Div
 Command: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/Debug/calculator_tests.exe" "--gtest_filter=CalculatorTest.Div" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build
-"CalculatorTest.Div" start time: Dec 08 15:16 Pacific Standard Time
+"CalculatorTest.Div" start time: Dec 16 11:46 Pacific Standard Time
 Output:
 ----------------------------------------------------------
 Running main() from C:\Users\priyanka.deshmukh\Documents\CalculatorProject\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -104,8 +104,44 @@ Note: Google Test filter = CalculatorTest.Div
 Test time =   0.03 sec
 ----------------------------------------------------------
 Test Passed.
-"CalculatorTest.Div" end time: Dec 08 15:16 Pacific Standard Time
+"CalculatorTest.Div" end time: Dec 16 11:46 Pacific Standard Time
 "CalculatorTest.Div" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Dec 08 15:16 Pacific Standard Time
+5/5 Testing: CalcultorTest.fib
+5/5 Test: CalcultorTest.fib
+Command: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/Debug/calculator_tests.exe" "--gtest_filter=CalcultorTest.fib" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build
+"CalcultorTest.fib" start time: Dec 16 11:46 Pacific Standard Time
+Output:
+----------------------------------------------------------
+Running main() from C:\Users\priyanka.deshmukh\Documents\CalculatorProject\build\_deps\googletest-src\googletest\src\gtest_main.cc
+Note: Google Test filter = CalcultorTest.fib
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from CalcultorTest
+[ RUN      ] CalcultorTest.fib
+C:\Users\priyanka.deshmukh\Documents\CalculatorProject\tests\test_calculator.cpp(26): error: Expected equality of these values:
+  c.fib(6)
+    Which is: 8
+  9
+
+[  FAILED  ] CalcultorTest.fib (0 ms)
+[----------] 1 test from CalcultorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] CalcultorTest.fib
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Failed.
+"CalcultorTest.fib" end time: Dec 16 11:46 Pacific Standard Time
+"CalcultorTest.fib" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 16 11:46 Pacific Standard Time
