@@ -29,6 +29,7 @@ target_include_directories(calculator_lib PUBLIC
 # Test executable
 add_executable(calculator_tests
     tests/test_calculator.cpp
+    tests/isEven.cpp
 )
 
 target_link_libraries(calculator_tests
