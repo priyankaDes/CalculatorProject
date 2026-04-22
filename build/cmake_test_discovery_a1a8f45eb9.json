@@ -1,10 +1,10 @@
 {
-  "tests": 5,
+  "tests": 10,
   "name": "AllTests",
   "testsuites": [
     {
       "name": "CalculatorTest",
-      "tests": 4,
+      "tests": 5,
       "testsuite": [
         {
           "name": "Add",
@@ -14,28 +14,59 @@
         {
           "name": "Sub",
           "file": "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\tests\\test_calculator.cpp",
-          "line": 9
+          "line": 14
         },
         {
           "name": "Mul",
           "file": "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\tests\\test_calculator.cpp",
-          "line": 14
+          "line": 19
         },
         {
           "name": "Div",
           "file": "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\tests\\test_calculator.cpp",
-          "line": 19
+          "line": 25
+        },
+        {
+          "name": "Fib",
+          "file": "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\tests\\test_calculator.cpp",
+          "line": 30
         }
       ]
     },
     {
-      "name": "CalcultorTest",
+      "name": "IsEvenTest",
+      "tests": 4,
+      "testsuite": [
+        {
+          "name": "EvenNumber",
+          "file": "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\tests\\isEven.cpp",
+          "line": 9
+        },
+        {
+          "name": "OddNumber",
+          "file": "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\tests\\isEven.cpp",
+          "line": 15
+        },
+        {
+          "name": "Zero",
+          "file": "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\tests\\isEven.cpp",
+          "line": 21
+        },
+        {
+          "name": "NegativeNumbers",
+          "file": "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\tests\\isEven.cpp",
+          "line": 25
+        }
+      ]
+    },
+    {
+      "name": "TestJson",
       "tests": 1,
       "testsuite": [
         {
-          "name": "fib",
-          "file": "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\tests\\test_calculator.cpp",
-          "line": 24
+          "name": "ParseJson",
+          "file": "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\tests\\jsonTest.cpp",
+          "line": 17
         }
       ]
     }

@@ -7,7 +7,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      The system is: Windows - 10.0.22631 - AMD64
+      The system is: Windows - 10.0.26200 - AMD64
   -
     kind: "find-v1"
     backtrace:
@@ -44,7 +44,8 @@ events:
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Performance Tools"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\\\x64"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\"
-        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.6 Tools\\x64\\"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64"
@@ -56,17 +57,15 @@ events:
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Scripts"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\bin"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\mingw-w64"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:\\Users\\priyanka.deshmukh\\.dnx\\bin"
-        - "C:\\Program Files\\Microsoft DNX\\Dnvm\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Program Files\\Inscopix\\Data Processing"
@@ -81,9 +80,12 @@ events:
         - "C:\\Program Files\\mosquitto"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\cursor\\resources\\app\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Python\\Python311\\"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -94,12 +96,14 @@ events:
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Python\\Python37\\Scripts"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Roaming\\npm"
+        - "%USERPROFILE%\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
       ENV{INCLUDE}:
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\include"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include"
-        - "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6\\include\\um"
+        - "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\include\\um"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\ucrt"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\shared"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\um"
@@ -123,7 +127,7 @@ events:
       Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
       Copyright (C) Microsoft Corporation. All rights reserved.
       
-      Build started 12/8/2025 3:15:58 PM.
+      Build started 2/10/2026 12:25:03 PM.
       Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\4.2.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
@@ -149,7 +153,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.84
+      Time Elapsed 00:00:01.01
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -190,7 +194,8 @@ events:
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Team Tools/Performance Tools/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Common/VSPerfCollectionTools/vs2019/x64/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Common/VSPerfCollectionTools/vs2019/"
-      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.6 Tools/x64/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/Tools/devinit/"
       - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/"
       - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
@@ -211,8 +216,6 @@ events:
       - "C:/Users/priyanka.deshmukh/Anaconda3/Library/bin/"
       - "C:/Users/priyanka.deshmukh/Anaconda3/Library/mingw-w64/"
       - "C:/Windows/System32/OpenSSH/"
-      - "C:/Users/priyanka.deshmukh/.dnx/bin/"
-      - "C:/Program Files/Microsoft DNX/Dnvm/"
       - "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Program Files/Inscopix/Data Processing/"
@@ -226,17 +229,19 @@ events:
       - "C:/Program Files/mosquitto/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/cursor/resources/app/bin/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python311/Scripts/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python311/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python37/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python37/Scripts/"
       - "C:/Users/priyanka.deshmukh/AppData/Roaming/npm/"
+      - "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/%USERPROFILE%/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
     searched_directories:
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.com"
     found: "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.exe"
@@ -251,7 +256,8 @@ events:
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Performance Tools"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\\\x64"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\"
-        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.6 Tools\\x64\\"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64"
@@ -263,17 +269,15 @@ events:
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Scripts"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\bin"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\mingw-w64"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:\\Users\\priyanka.deshmukh\\.dnx\\bin"
-        - "C:\\Program Files\\Microsoft DNX\\Dnvm\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Program Files\\Inscopix\\Data Processing"
@@ -288,9 +292,12 @@ events:
         - "C:\\Program Files\\mosquitto"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\cursor\\resources\\app\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Python\\Python311\\"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -301,8 +308,10 @@ events:
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Python\\Python37\\Scripts"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Roaming\\npm"
+        - "%USERPROFILE%\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
   -
     kind: "find-v1"
     backtrace:
@@ -334,7 +343,8 @@ events:
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Team Tools/Performance Tools/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Common/VSPerfCollectionTools/vs2019/x64/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Common/VSPerfCollectionTools/vs2019/"
-      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.6 Tools/x64/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/Tools/devinit/"
       - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/"
       - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
@@ -355,8 +365,6 @@ events:
       - "C:/Users/priyanka.deshmukh/Anaconda3/Library/bin/"
       - "C:/Users/priyanka.deshmukh/Anaconda3/Library/mingw-w64/"
       - "C:/Windows/System32/OpenSSH/"
-      - "C:/Users/priyanka.deshmukh/.dnx/bin/"
-      - "C:/Program Files/Microsoft DNX/Dnvm/"
       - "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Program Files/Inscopix/Data Processing/"
@@ -370,17 +378,19 @@ events:
       - "C:/Program Files/mosquitto/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/cursor/resources/app/bin/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python311/Scripts/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python311/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python37/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python37/Scripts/"
       - "C:/Users/priyanka.deshmukh/AppData/Roaming/npm/"
+      - "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/%USERPROFILE%/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
     searched_directories:
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link.com"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lld-link.exe"
@@ -409,9 +419,12 @@ events:
       - "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Common/VSPerfCollectionTools/vs2019/lld-link.com"
       - "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Common/VSPerfCollectionTools/vs2019/lld-link.exe"
       - "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Common/VSPerfCollectionTools/vs2019/lld-link"
-      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.6 Tools/x64/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.6 Tools/x64/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.6 Tools/x64/lld-link"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/lld-link"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/Tools/devinit/lld-link.com"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/Tools/devinit/lld-link.exe"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/Tools/devinit/lld-link"
@@ -472,12 +485,6 @@ events:
       - "C:/Windows/System32/OpenSSH/lld-link.com"
       - "C:/Windows/System32/OpenSSH/lld-link.exe"
       - "C:/Windows/System32/OpenSSH/lld-link"
-      - "C:/Users/priyanka.deshmukh/.dnx/bin/lld-link.com"
-      - "C:/Users/priyanka.deshmukh/.dnx/bin/lld-link.exe"
-      - "C:/Users/priyanka.deshmukh/.dnx/bin/lld-link"
-      - "C:/Program Files/Microsoft DNX/Dnvm/lld-link.com"
-      - "C:/Program Files/Microsoft DNX/Dnvm/lld-link.exe"
-      - "C:/Program Files/Microsoft DNX/Dnvm/lld-link"
       - "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/lld-link.com"
       - "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/lld-link.exe"
       - "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/lld-link"
@@ -517,15 +524,15 @@ events:
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
-      - "C:/Program Files/Git/cmd/lld-link.com"
-      - "C:/Program Files/Git/cmd/lld-link.exe"
-      - "C:/Program Files/Git/cmd/lld-link"
       - "C:/Program Files/cursor/resources/app/bin/lld-link.com"
       - "C:/Program Files/cursor/resources/app/bin/lld-link.exe"
       - "C:/Program Files/cursor/resources/app/bin/lld-link"
       - "C:/Program Files/CMake/bin/lld-link.com"
       - "C:/Program Files/CMake/bin/lld-link.exe"
       - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python311/Scripts/lld-link.com"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python311/Scripts/lld-link.exe"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python311/Scripts/lld-link"
@@ -544,12 +551,18 @@ events:
       - "C:/Users/priyanka.deshmukh/AppData/Roaming/npm/lld-link.com"
       - "C:/Users/priyanka.deshmukh/AppData/Roaming/npm/lld-link.exe"
       - "C:/Users/priyanka.deshmukh/AppData/Roaming/npm/lld-link"
+      - "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/%USERPROFILE%/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/%USERPROFILE%/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/%USERPROFILE%/AppData/Local/Microsoft/WindowsApps/lld-link"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.com"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.exe"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.com"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.exe"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link"
     found: false
     search_context:
       ENV{PATH}:
@@ -562,7 +575,8 @@ events:
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Performance Tools"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\\\x64"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\"
-        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.6 Tools\\x64\\"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64"
@@ -574,17 +588,15 @@ events:
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Scripts"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\bin"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\mingw-w64"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:\\Users\\priyanka.deshmukh\\.dnx\\bin"
-        - "C:\\Program Files\\Microsoft DNX\\Dnvm\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Program Files\\Inscopix\\Data Processing"
@@ -599,9 +611,12 @@ events:
         - "C:\\Program Files\\mosquitto"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\cursor\\resources\\app\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Python\\Python311\\"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -612,8 +627,10 @@ events:
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Python\\Python37\\Scripts"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Roaming\\npm"
+        - "%USERPROFILE%\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
   -
     kind: "find-v1"
     backtrace:
@@ -643,7 +660,8 @@ events:
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Team Tools/Performance Tools/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Common/VSPerfCollectionTools/vs2019/x64/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Common/VSPerfCollectionTools/vs2019/"
-      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.6 Tools/x64/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/Tools/devinit/"
       - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/"
       - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
@@ -664,8 +682,6 @@ events:
       - "C:/Users/priyanka.deshmukh/Anaconda3/Library/bin/"
       - "C:/Users/priyanka.deshmukh/Anaconda3/Library/mingw-w64/"
       - "C:/Windows/System32/OpenSSH/"
-      - "C:/Users/priyanka.deshmukh/.dnx/bin/"
-      - "C:/Program Files/Microsoft DNX/Dnvm/"
       - "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Program Files/Inscopix/Data Processing/"
@@ -679,17 +695,19 @@ events:
       - "C:/Program Files/mosquitto/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/cursor/resources/app/bin/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python311/Scripts/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python311/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python37/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python37/Scripts/"
       - "C:/Users/priyanka.deshmukh/AppData/Roaming/npm/"
+      - "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/%USERPROFILE%/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
     searched_directories:
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.com"
     found: "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/link.exe"
@@ -704,7 +722,8 @@ events:
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Performance Tools"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\\\x64"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\"
-        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.6 Tools\\x64\\"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64"
@@ -716,17 +735,15 @@ events:
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Scripts"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\bin"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\mingw-w64"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:\\Users\\priyanka.deshmukh\\.dnx\\bin"
-        - "C:\\Program Files\\Microsoft DNX\\Dnvm\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Program Files\\Inscopix\\Data Processing"
@@ -741,9 +758,12 @@ events:
         - "C:\\Program Files\\mosquitto"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\cursor\\resources\\app\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Python\\Python311\\"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -754,8 +774,10 @@ events:
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Python\\Python37\\Scripts"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Roaming\\npm"
+        - "%USERPROFILE%\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
   -
     kind: "find-v1"
     backtrace:
@@ -785,7 +807,8 @@ events:
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Team Tools/Performance Tools/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Common/VSPerfCollectionTools/vs2019/x64/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Common/VSPerfCollectionTools/vs2019/"
-      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.6 Tools/x64/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/Tools/devinit/"
       - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/"
       - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
@@ -806,8 +829,6 @@ events:
       - "C:/Users/priyanka.deshmukh/Anaconda3/Library/bin/"
       - "C:/Users/priyanka.deshmukh/Anaconda3/Library/mingw-w64/"
       - "C:/Windows/System32/OpenSSH/"
-      - "C:/Users/priyanka.deshmukh/.dnx/bin/"
-      - "C:/Program Files/Microsoft DNX/Dnvm/"
       - "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Program Files/Inscopix/Data Processing/"
@@ -821,17 +842,19 @@ events:
       - "C:/Program Files/mosquitto/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/cursor/resources/app/bin/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python311/Scripts/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python311/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python37/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python37/Scripts/"
       - "C:/Users/priyanka.deshmukh/AppData/Roaming/npm/"
+      - "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/%USERPROFILE%/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
     searched_directories:
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/mt.com"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/mt.exe"
@@ -860,9 +883,12 @@ events:
       - "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Common/VSPerfCollectionTools/vs2019/mt.com"
       - "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Common/VSPerfCollectionTools/vs2019/mt.exe"
       - "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Common/VSPerfCollectionTools/vs2019/mt"
-      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.6 Tools/x64/mt.com"
-      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.6 Tools/x64/mt.exe"
-      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.6 Tools/x64/mt"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/mt.com"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/mt.exe"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/mt"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/mt.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/mt.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/mt"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/Tools/devinit/mt.com"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/Tools/devinit/mt.exe"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/Tools/devinit/mt"
@@ -879,7 +905,8 @@ events:
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Performance Tools"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\\\x64"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\"
-        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.6 Tools\\x64\\"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64"
@@ -891,17 +918,15 @@ events:
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Scripts"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\bin"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\mingw-w64"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:\\Users\\priyanka.deshmukh\\.dnx\\bin"
-        - "C:\\Program Files\\Microsoft DNX\\Dnvm\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Program Files\\Inscopix\\Data Processing"
@@ -916,9 +941,12 @@ events:
         - "C:\\Program Files\\mosquitto"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\cursor\\resources\\app\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Python\\Python311\\"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -929,8 +957,10 @@ events:
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Python\\Python37\\Scripts"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Roaming\\npm"
+        - "%USERPROFILE%\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
   -
     kind: "find-v1"
     backtrace:
@@ -960,7 +990,8 @@ events:
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Team Tools/Performance Tools/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Common/VSPerfCollectionTools/vs2019/x64/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Common/VSPerfCollectionTools/vs2019/"
-      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.6 Tools/x64/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/Tools/devinit/"
       - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/"
       - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
@@ -981,8 +1012,6 @@ events:
       - "C:/Users/priyanka.deshmukh/Anaconda3/Library/bin/"
       - "C:/Users/priyanka.deshmukh/Anaconda3/Library/mingw-w64/"
       - "C:/Windows/System32/OpenSSH/"
-      - "C:/Users/priyanka.deshmukh/.dnx/bin/"
-      - "C:/Program Files/Microsoft DNX/Dnvm/"
       - "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Program Files/Inscopix/Data Processing/"
@@ -996,17 +1025,19 @@ events:
       - "C:/Program Files/mosquitto/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/cursor/resources/app/bin/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python311/Scripts/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python311/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python37/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python37/Scripts/"
       - "C:/Users/priyanka.deshmukh/AppData/Roaming/npm/"
+      - "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/%USERPROFILE%/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
     searched_directories:
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lib.com"
     found: "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/lib.exe"
@@ -1021,7 +1052,8 @@ events:
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Performance Tools"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\\\x64"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\"
-        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.6 Tools\\x64\\"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64"
@@ -1033,17 +1065,15 @@ events:
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Scripts"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\bin"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\mingw-w64"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:\\Users\\priyanka.deshmukh\\.dnx\\bin"
-        - "C:\\Program Files\\Microsoft DNX\\Dnvm\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Program Files\\Inscopix\\Data Processing"
@@ -1058,9 +1088,12 @@ events:
         - "C:\\Program Files\\mosquitto"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\cursor\\resources\\app\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Python\\Python311\\"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -1071,8 +1104,10 @@ events:
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Python\\Python37\\Scripts"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Roaming\\npm"
+        - "%USERPROFILE%\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
   -
     kind: "find-v1"
     backtrace:
@@ -1105,7 +1140,8 @@ events:
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Team Tools/Performance Tools/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Common/VSPerfCollectionTools/vs2019/x64/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Common/VSPerfCollectionTools/vs2019/"
-      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.6 Tools/x64/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/Tools/devinit/"
       - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/"
       - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
@@ -1126,8 +1162,6 @@ events:
       - "C:/Users/priyanka.deshmukh/Anaconda3/Library/bin/"
       - "C:/Users/priyanka.deshmukh/Anaconda3/Library/mingw-w64/"
       - "C:/Windows/System32/OpenSSH/"
-      - "C:/Users/priyanka.deshmukh/.dnx/bin/"
-      - "C:/Program Files/Microsoft DNX/Dnvm/"
       - "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Program Files/Inscopix/Data Processing/"
@@ -1141,17 +1175,19 @@ events:
       - "C:/Program Files/mosquitto/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/cursor/resources/app/bin/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python311/Scripts/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python311/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python37/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python37/Scripts/"
       - "C:/Users/priyanka.deshmukh/AppData/Roaming/npm/"
+      - "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/%USERPROFILE%/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -1192,9 +1228,12 @@ events:
       - "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Common/VSPerfCollectionTools/vs2019/rc.com"
       - "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Common/VSPerfCollectionTools/vs2019/rc.exe"
       - "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Common/VSPerfCollectionTools/vs2019/rc"
-      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.6 Tools/x64/rc.com"
-      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.6 Tools/x64/rc.exe"
-      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.6 Tools/x64/rc"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/rc.com"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/rc.exe"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/rc"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/rc.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/rc.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/rc"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/Tools/devinit/rc.com"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/Tools/devinit/rc.exe"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/Tools/devinit/rc"
@@ -1211,7 +1250,8 @@ events:
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Performance Tools"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\\\x64"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\"
-        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.6 Tools\\x64\\"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64"
@@ -1223,17 +1263,15 @@ events:
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Scripts"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\bin"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\mingw-w64"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:\\Users\\priyanka.deshmukh\\.dnx\\bin"
-        - "C:\\Program Files\\Microsoft DNX\\Dnvm\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Program Files\\Inscopix\\Data Processing"
@@ -1248,9 +1286,12 @@ events:
         - "C:\\Program Files\\mosquitto"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\cursor\\resources\\app\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Python\\Python311\\"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -1261,8 +1302,10 @@ events:
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Python\\Python37\\Scripts"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Roaming\\npm"
+        - "%USERPROFILE%\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/CalculatorProject"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -1278,8 +1321,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-hn5b4v"
-      binary: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-hn5b4v"
+      source: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-yoj5wr"
+      binary: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-yoj5wr"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1289,38 +1332,38 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-hn5b4v'
+        Change Dir: 'C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-yoj5wr'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_95881.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_0bb46.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 12/8/2025 3:16:00 PM.
-        Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hn5b4v\\cmTC_95881.vcxproj" on node 1 (default targets).
+        Build started 2/10/2026 12:25:05 PM.
+        Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yoj5wr\\cmTC_0bb46.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hn5b4v\\Debug\\".
-          Creating directory "cmTC_95881.dir\\Debug\\cmTC_95881.tlog\\".
+          Creating directory "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yoj5wr\\Debug\\".
+          Creating directory "cmTC_0bb46.dir\\Debug\\cmTC_0bb46.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_95881.dir\\Debug\\cmTC_95881.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_0bb46.dir\\Debug\\cmTC_0bb46.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_95881.dir\\Debug\\\\" /Fd"cmTC_95881.dir\\Debug\\vc142.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_0bb46.dir\\Debug\\\\" /Fd"cmTC_0bb46.dir\\Debug\\vc142.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           CMakeCXXCompilerABI.cpp
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_95881.dir\\Debug\\\\" /Fd"cmTC_95881.dir\\Debug\\vc142.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_0bb46.dir\\Debug\\\\" /Fd"cmTC_0bb46.dir\\Debug\\vc142.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hn5b4v\\Debug\\cmTC_95881.exe" /INCREMENTAL /ILK:"cmTC_95881.dir\\Debug\\cmTC_95881.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-hn5b4v/Debug/cmTC_95881.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-hn5b4v/Debug/cmTC_95881.lib" /MACHINE:X64  /machine:x64 cmTC_95881.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_95881.vcxproj -> C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hn5b4v\\Debug\\cmTC_95881.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yoj5wr\\Debug\\cmTC_0bb46.exe" /INCREMENTAL /ILK:"cmTC_0bb46.dir\\Debug\\cmTC_0bb46.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-yoj5wr/Debug/cmTC_0bb46.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-yoj5wr/Debug/cmTC_0bb46.lib" /MACHINE:X64  /machine:x64 cmTC_0bb46.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_0bb46.vcxproj -> C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yoj5wr\\Debug\\cmTC_0bb46.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_95881.dir\\Debug\\cmTC_95881.tlog\\unsuccessfulbuild".
-          Touching "cmTC_95881.dir\\Debug\\cmTC_95881.tlog\\cmTC_95881.lastbuildstate".
-        Done Building Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-hn5b4v\\cmTC_95881.vcxproj" (default targets).
+          Deleting file "cmTC_0bb46.dir\\Debug\\cmTC_0bb46.tlog\\unsuccessfulbuild".
+          Touching "cmTC_0bb46.dir\\Debug\\cmTC_0bb46.tlog\\cmTC_0bb46.lastbuildstate".
+        Done Building Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yoj5wr\\cmTC_0bb46.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.66
+        Time Elapsed 00:00:00.75
         
       exitCode: 0
   -
@@ -1387,7 +1430,8 @@ events:
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Performance Tools"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\\\x64"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\"
-        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.6 Tools\\x64\\"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64"
@@ -1399,17 +1443,15 @@ events:
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Scripts"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\bin"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\mingw-w64"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:\\Users\\priyanka.deshmukh\\.dnx\\bin"
-        - "C:\\Program Files\\Microsoft DNX\\Dnvm\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Program Files\\Inscopix\\Data Processing"
@@ -1424,9 +1466,12 @@ events:
         - "C:\\Program Files\\mosquitto"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\cursor\\resources\\app\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Python\\Python311\\"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -1437,8 +1482,10 @@ events:
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Python\\Python37\\Scripts"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Roaming\\npm"
+        - "%USERPROFILE%\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/CalculatorProject"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -1448,7 +1495,7 @@ events:
       ENV{INCLUDE}:
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\ATLMFC\\include"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include"
-        - "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.6\\include\\um"
+        - "C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\include\\um"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\ucrt"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\shared"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\include\\10.0.19041.0\\um"
@@ -1472,7 +1519,7 @@ events:
       Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
       Copyright (C) Microsoft Corporation. All rights reserved.
       
-      Build started 12/8/2025 3:16:06 PM.
+      Build started 2/10/2026 12:25:14 PM.
       Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\4.2.0\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
@@ -1498,7 +1545,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.72
+      Time Elapsed 00:00:00.84
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -1539,7 +1586,8 @@ events:
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Team Tools/Performance Tools/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Common/VSPerfCollectionTools/vs2019/x64/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Common/VSPerfCollectionTools/vs2019/"
-      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.6 Tools/x64/"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/Tools/devinit/"
       - "C:/Program Files (x86)/Windows Kits/10/bin/10.0.19041.0/x64/"
       - "C:/Program Files (x86)/Windows Kits/10/bin/x64/"
@@ -1560,8 +1608,6 @@ events:
       - "C:/Users/priyanka.deshmukh/Anaconda3/Library/bin/"
       - "C:/Users/priyanka.deshmukh/Anaconda3/Library/mingw-w64/"
       - "C:/Windows/System32/OpenSSH/"
-      - "C:/Users/priyanka.deshmukh/.dnx/bin/"
-      - "C:/Program Files/Microsoft DNX/Dnvm/"
       - "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Microsoft VS Code/bin/"
       - "C:/Program Files/Inscopix/Data Processing/"
@@ -1575,17 +1621,19 @@ events:
       - "C:/Program Files/mosquitto/"
       - "C:/Program Files/dotnet/"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/"
-      - "C:/Program Files/Git/cmd/"
       - "C:/Program Files/cursor/resources/app/bin/"
       - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/Git/cmd/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python311/Scripts/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python311/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Launcher/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python37/"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python37/Scripts/"
       - "C:/Users/priyanka.deshmukh/AppData/Roaming/npm/"
+      - "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/%USERPROFILE%/AppData/Local/Microsoft/WindowsApps/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/"
       - "C:/Program Files/bin/"
       - "C:/Program Files/sbin/"
       - "C:/Program Files/"
@@ -1626,9 +1674,12 @@ events:
       - "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Common/VSPerfCollectionTools/vs2019/lld-link.com"
       - "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Common/VSPerfCollectionTools/vs2019/lld-link.exe"
       - "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Common/VSPerfCollectionTools/vs2019/lld-link"
-      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.6 Tools/x64/lld-link.com"
-      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.6 Tools/x64/lld-link.exe"
-      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.6 Tools/x64/lld-link"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft SDKs/Windows/v10.0A/bin/NETFX 4.8 Tools/x64/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/FSharp/Tools/lld-link"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/Tools/devinit/lld-link.com"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/Tools/devinit/lld-link.exe"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/Tools/devinit/lld-link"
@@ -1689,12 +1740,6 @@ events:
       - "C:/Windows/System32/OpenSSH/lld-link.com"
       - "C:/Windows/System32/OpenSSH/lld-link.exe"
       - "C:/Windows/System32/OpenSSH/lld-link"
-      - "C:/Users/priyanka.deshmukh/.dnx/bin/lld-link.com"
-      - "C:/Users/priyanka.deshmukh/.dnx/bin/lld-link.exe"
-      - "C:/Users/priyanka.deshmukh/.dnx/bin/lld-link"
-      - "C:/Program Files/Microsoft DNX/Dnvm/lld-link.com"
-      - "C:/Program Files/Microsoft DNX/Dnvm/lld-link.exe"
-      - "C:/Program Files/Microsoft DNX/Dnvm/lld-link"
       - "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/lld-link.com"
       - "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/lld-link.exe"
       - "C:/Program Files (x86)/Microsoft Visual Studio 14.0/VC/bin/lld-link"
@@ -1734,15 +1779,15 @@ events:
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.com"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link.exe"
       - "C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common/lld-link"
-      - "C:/Program Files/Git/cmd/lld-link.com"
-      - "C:/Program Files/Git/cmd/lld-link.exe"
-      - "C:/Program Files/Git/cmd/lld-link"
       - "C:/Program Files/cursor/resources/app/bin/lld-link.com"
       - "C:/Program Files/cursor/resources/app/bin/lld-link.exe"
       - "C:/Program Files/cursor/resources/app/bin/lld-link"
       - "C:/Program Files/CMake/bin/lld-link.com"
       - "C:/Program Files/CMake/bin/lld-link.exe"
       - "C:/Program Files/CMake/bin/lld-link"
+      - "C:/Program Files/Git/cmd/lld-link.com"
+      - "C:/Program Files/Git/cmd/lld-link.exe"
+      - "C:/Program Files/Git/cmd/lld-link"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python311/Scripts/lld-link.com"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python311/Scripts/lld-link.exe"
       - "C:/Users/priyanka.deshmukh/AppData/Local/Programs/Python/Python311/Scripts/lld-link"
@@ -1761,12 +1806,18 @@ events:
       - "C:/Users/priyanka.deshmukh/AppData/Roaming/npm/lld-link.com"
       - "C:/Users/priyanka.deshmukh/AppData/Roaming/npm/lld-link.exe"
       - "C:/Users/priyanka.deshmukh/AppData/Roaming/npm/lld-link"
+      - "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/%USERPROFILE%/AppData/Local/Microsoft/WindowsApps/lld-link.com"
+      - "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/%USERPROFILE%/AppData/Local/Microsoft/WindowsApps/lld-link.exe"
+      - "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/%USERPROFILE%/AppData/Local/Microsoft/WindowsApps/lld-link"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.com"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link.exe"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/lld-link"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.com"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link.exe"
       - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/lld-link"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.com"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link.exe"
+      - "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/VC/Linux/bin/ConnectionManagerExe/lld-link"
       - "C:/Program Files/bin/lld-link.com"
       - "C:/Program Files/bin/lld-link.exe"
       - "C:/Program Files/bin/lld-link"
@@ -1815,7 +1866,8 @@ events:
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Performance Tools"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\\\x64"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Common\\VSPerfCollectionTools\\vs2019\\"
-        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.6 Tools\\x64\\"
+        - "C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.8 Tools\\x64\\"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\FSharp\\Tools"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\devinit"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64"
@@ -1827,17 +1879,15 @@ events:
         - "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.17.10-hotspot\\bin"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
-        - "C:\\Windows\\system32"
-        - "C:\\Windows"
-        - "C:\\Windows\\System32\\Wbem"
-        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Scripts"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\bin"
         - "C:\\Users\\priyanka.deshmukh\\Anaconda3\\Library\\mingw-w64"
-        - "C:\\Windows\\System32\\OpenSSH\\"
-        - "C:\\Users\\priyanka.deshmukh\\.dnx\\bin"
-        - "C:\\Program Files\\Microsoft DNX\\Dnvm\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Program Files\\Inscopix\\Data Processing"
@@ -1852,9 +1902,12 @@ events:
         - "C:\\Program Files\\mosquitto"
         - "C:\\Program Files\\dotnet\\"
         - "C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common"
-        - "C:\\Program Files\\Git\\cmd"
         - "C:\\Program Files\\cursor\\resources\\app\\bin"
         - "C:\\Program Files\\CMake\\bin"
+        - "C:\\Program Files\\Git\\cmd"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Python\\Python311\\"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Microsoft\\WindowsApps"
@@ -1865,8 +1918,10 @@ events:
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Python\\Python37\\Scripts"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
         - "C:\\Users\\priyanka.deshmukh\\AppData\\Roaming\\npm"
+        - "%USERPROFILE%\\AppData\\Local\\Microsoft\\WindowsApps"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
       CMAKE_INSTALL_PREFIX: "C:/Program Files/CalculatorProject"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
@@ -1882,8 +1937,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-5aoju5"
-      binary: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-5aoju5"
+      source: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-0ujk7y"
+      binary: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-0ujk7y"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1892,38 +1947,38 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-5aoju5'
+        Change Dir: 'C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-0ujk7y'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_b0d32.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_4667e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 12/8/2025 3:16:08 PM.
-        Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5aoju5\\cmTC_b0d32.vcxproj" on node 1 (default targets).
+        Build started 2/10/2026 12:25:16 PM.
+        Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ujk7y\\cmTC_4667e.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5aoju5\\Debug\\".
-          Creating directory "cmTC_b0d32.dir\\Debug\\cmTC_b0d32.tlog\\".
+          Creating directory "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ujk7y\\Debug\\".
+          Creating directory "cmTC_4667e.dir\\Debug\\cmTC_4667e.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_b0d32.dir\\Debug\\cmTC_b0d32.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_4667e.dir\\Debug\\cmTC_4667e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_b0d32.dir\\Debug\\\\" /Fd"cmTC_b0d32.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_4667e.dir\\Debug\\\\" /Fd"cmTC_4667e.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
           CMakeCCompilerABI.c
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_b0d32.dir\\Debug\\\\" /Fd"cmTC_b0d32.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_4667e.dir\\Debug\\\\" /Fd"cmTC_4667e.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5aoju5\\Debug\\cmTC_b0d32.exe" /INCREMENTAL /ILK:"cmTC_b0d32.dir\\Debug\\cmTC_b0d32.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-5aoju5/Debug/cmTC_b0d32.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-5aoju5/Debug/cmTC_b0d32.lib" /MACHINE:X64  /machine:x64 cmTC_b0d32.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_b0d32.vcxproj -> C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5aoju5\\Debug\\cmTC_b0d32.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ujk7y\\Debug\\cmTC_4667e.exe" /INCREMENTAL /ILK:"cmTC_4667e.dir\\Debug\\cmTC_4667e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-0ujk7y/Debug/cmTC_4667e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-0ujk7y/Debug/cmTC_4667e.lib" /MACHINE:X64  /machine:x64 cmTC_4667e.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_4667e.vcxproj -> C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ujk7y\\Debug\\cmTC_4667e.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_b0d32.dir\\Debug\\cmTC_b0d32.tlog\\unsuccessfulbuild".
-          Touching "cmTC_b0d32.dir\\Debug\\cmTC_b0d32.tlog\\cmTC_b0d32.lastbuildstate".
-        Done Building Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5aoju5\\cmTC_b0d32.vcxproj" (default targets).
+          Deleting file "cmTC_4667e.dir\\Debug\\cmTC_4667e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_4667e.dir\\Debug\\cmTC_4667e.tlog\\cmTC_4667e.lastbuildstate".
+        Done Building Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-0ujk7y\\cmTC_4667e.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.66
+        Time Elapsed 00:00:00.71
         
       exitCode: 0
   -
@@ -1966,8 +2021,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-y5xpja"
-      binary: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-y5xpja"
+      source: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-n2f69y"
+      binary: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-n2f69y"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -1976,38 +2031,38 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-y5xpja'
+        Change Dir: 'C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-n2f69y'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_b3850.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_f6d0c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 12/8/2025 3:16:09 PM.
-        Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5xpja\\cmTC_b3850.vcxproj" on node 1 (default targets).
+        Build started 2/10/2026 12:25:18 PM.
+        Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2f69y\\cmTC_f6d0c.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5xpja\\Debug\\".
-          Creating directory "cmTC_b3850.dir\\Debug\\cmTC_b3850.tlog\\".
+          Creating directory "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2f69y\\Debug\\".
+          Creating directory "cmTC_f6d0c.dir\\Debug\\cmTC_f6d0c.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_b3850.dir\\Debug\\cmTC_b3850.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_f6d0c.dir\\Debug\\cmTC_f6d0c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_b3850.dir\\Debug\\\\" /Fd"cmTC_b3850.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5xpja\\src.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_f6d0c.dir\\Debug\\\\" /Fd"cmTC_f6d0c.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2f69y\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           src.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_b3850.dir\\Debug\\\\" /Fd"cmTC_b3850.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5xpja\\src.c"
-        C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5xpja\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5xpja\\cmTC_b3850.vcxproj]
-        Done Building Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5xpja\\cmTC_b3850.vcxproj" (default targets) -- FAILED.
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_f6d0c.dir\\Debug\\\\" /Fd"cmTC_f6d0c.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2f69y\\src.c"
+        C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2f69y\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2f69y\\cmTC_f6d0c.vcxproj]
+        Done Building Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2f69y\\cmTC_f6d0c.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5xpja\\cmTC_b3850.vcxproj" (default target) (1) ->
+        "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2f69y\\cmTC_f6d0c.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5xpja\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-y5xpja\\cmTC_b3850.vcxproj]
+          C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2f69y\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n2f69y\\cmTC_f6d0c.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.39
+        Time Elapsed 00:00:00.43
         
       exitCode: 1
   -
@@ -2021,8 +2076,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-1mrd8k"
-      binary: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-1mrd8k"
+      source: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-71vxo5"
+      binary: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-71vxo5"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -2031,40 +2086,40 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-1mrd8k'
+        Change Dir: 'C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-71vxo5'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_6b039.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_2e0a7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 12/8/2025 3:16:10 PM.
-        Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1mrd8k\\cmTC_6b039.vcxproj" on node 1 (default targets).
+        Build started 2/10/2026 12:25:18 PM.
+        Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-71vxo5\\cmTC_2e0a7.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1mrd8k\\Debug\\".
-          Creating directory "cmTC_6b039.dir\\Debug\\cmTC_6b039.tlog\\".
+          Creating directory "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-71vxo5\\Debug\\".
+          Creating directory "cmTC_2e0a7.dir\\Debug\\cmTC_2e0a7.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_6b039.dir\\Debug\\cmTC_6b039.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_2e0a7.dir\\Debug\\cmTC_2e0a7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_6b039.dir\\Debug\\\\" /Fd"cmTC_6b039.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1mrd8k\\CheckFunctionExists.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_2e0a7.dir\\Debug\\\\" /Fd"cmTC_2e0a7.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-71vxo5\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
           CheckFunctionExists.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_6b039.dir\\Debug\\\\" /Fd"cmTC_6b039.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1mrd8k\\CheckFunctionExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_2e0a7.dir\\Debug\\\\" /Fd"cmTC_2e0a7.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-71vxo5\\CheckFunctionExists.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1mrd8k\\Debug\\cmTC_6b039.exe" /INCREMENTAL /ILK:"cmTC_6b039.dir\\Debug\\cmTC_6b039.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-1mrd8k/Debug/cmTC_6b039.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-1mrd8k/Debug/cmTC_6b039.lib" /MACHINE:X64  /machine:x64 cmTC_6b039.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1mrd8k\\cmTC_6b039.vcxproj]
-        Done Building Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1mrd8k\\cmTC_6b039.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-71vxo5\\Debug\\cmTC_2e0a7.exe" /INCREMENTAL /ILK:"cmTC_2e0a7.dir\\Debug\\cmTC_2e0a7.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-71vxo5/Debug/cmTC_2e0a7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-71vxo5/Debug/cmTC_2e0a7.lib" /MACHINE:X64  /machine:x64 cmTC_2e0a7.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-71vxo5\\cmTC_2e0a7.vcxproj]
+        Done Building Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-71vxo5\\cmTC_2e0a7.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1mrd8k\\cmTC_6b039.vcxproj" (default target) (1) ->
+        "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-71vxo5\\cmTC_2e0a7.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1mrd8k\\cmTC_6b039.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-71vxo5\\cmTC_2e0a7.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.51
+        Time Elapsed 00:00:00.64
         
       exitCode: 1
   -
@@ -2078,8 +2133,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-v40v3b"
-      binary: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-v40v3b"
+      source: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-czdtcx"
+      binary: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-czdtcx"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -2088,40 +2143,40 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-v40v3b'
+        Change Dir: 'C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-czdtcx'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_2dd45.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe" cmTC_e7ffc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.6+a918ceb31 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 12/8/2025 3:16:11 PM.
-        Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v40v3b\\cmTC_2dd45.vcxproj" on node 1 (default targets).
+        Build started 2/10/2026 12:25:20 PM.
+        Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-czdtcx\\cmTC_e7ffc.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v40v3b\\Debug\\".
-          Creating directory "cmTC_2dd45.dir\\Debug\\cmTC_2dd45.tlog\\".
+          Creating directory "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-czdtcx\\Debug\\".
+          Creating directory "cmTC_e7ffc.dir\\Debug\\cmTC_e7ffc.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_2dd45.dir\\Debug\\cmTC_2dd45.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_e7ffc.dir\\Debug\\cmTC_e7ffc.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_2dd45.dir\\Debug\\\\" /Fd"cmTC_2dd45.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v40v3b\\CheckFunctionExists.c"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_e7ffc.dir\\Debug\\\\" /Fd"cmTC_e7ffc.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-czdtcx\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30159 for x64
-          CheckFunctionExists.c
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_2dd45.dir\\Debug\\\\" /Fd"cmTC_2dd45.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v40v3b\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_e7ffc.dir\\Debug\\\\" /Fd"cmTC_e7ffc.dir\\Debug\\vc142.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-czdtcx\\CheckFunctionExists.c"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v40v3b\\Debug\\cmTC_2dd45.exe" /INCREMENTAL /ILK:"cmTC_2dd45.dir\\Debug\\cmTC_2dd45.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-v40v3b/Debug/cmTC_2dd45.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-v40v3b/Debug/cmTC_2dd45.lib" /MACHINE:X64  /machine:x64 cmTC_2dd45.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v40v3b\\cmTC_2dd45.vcxproj]
-        Done Building Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v40v3b\\cmTC_2dd45.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-czdtcx\\Debug\\cmTC_e7ffc.exe" /INCREMENTAL /ILK:"cmTC_e7ffc.dir\\Debug\\cmTC_e7ffc.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-czdtcx/Debug/cmTC_e7ffc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/CMakeFiles/CMakeScratch/TryCompile-czdtcx/Debug/cmTC_e7ffc.lib" /MACHINE:X64  /machine:x64 cmTC_e7ffc.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-czdtcx\\cmTC_e7ffc.vcxproj]
+        Done Building Project "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-czdtcx\\cmTC_e7ffc.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v40v3b\\cmTC_2dd45.vcxproj" (default target) (1) ->
+        "C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-czdtcx\\cmTC_e7ffc.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-v40v3b\\cmTC_2dd45.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\priyanka.deshmukh\\Documents\\CalculatorProject\\build\\CMakeFiles\\CMakeScratch\\TryCompile-czdtcx\\cmTC_e7ffc.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.54
+        Time Elapsed 00:00:00.60
         
       exitCode: 1
 ...

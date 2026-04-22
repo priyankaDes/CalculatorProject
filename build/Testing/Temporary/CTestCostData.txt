@@ -1,7 +1,13 @@
-CalculatorTest.Add 5 0.00693836
-CalculatorTest.Sub 5 0.0060625
-CalculatorTest.Mul 5 0.00607134
-CalculatorTest.Div 5 0.00618804
-CalcultorTest.fib 1 0
+CalculatorTest.Add 3 0
+CalculatorTest.Sub 9 0.00575009
+CalculatorTest.Mul 7 0.00643846
+CalculatorTest.Div 9 0.00489974
+CalculatorTest.Fib 9 0.00437548
+IsEvenTest.EvenNumber 9 0.00476319
+IsEvenTest.OddNumber 9 0.00522018
+IsEvenTest.Zero 9 0.00534946
+IsEvenTest.NegativeNumbers 9 0.00557797
+TestJson.ParseJson 0 0
 ---
-CalcultorTest.fib
+CalculatorTest.Add
+TestJson.ParseJson

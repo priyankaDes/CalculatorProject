@@ -4,6 +4,12 @@
     <ClCompile Include="C:\Users\priyanka.deshmukh\Documents\CalculatorProject\tests\test_calculator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\priyanka.deshmukh\Documents\CalculatorProject\tests\isEven.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\priyanka.deshmukh\Documents\CalculatorProject\tests\jsonTest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\priyanka.deshmukh\Documents\CalculatorProject\CMakeLists.txt" />

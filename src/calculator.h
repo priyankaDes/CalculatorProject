@@ -1,5 +1,6 @@
 #pragma once
 
+extern int offset;
 class Calculator {
 public:
     int add(int a, int b);
@@ -7,4 +8,5 @@ public:
     int mul(int a, int b);
     double div(double a, double b); // assume b != 0 for now
     int fib(int n);
+    //int data = 2;
 };

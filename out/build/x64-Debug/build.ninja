@@ -110,6 +110,14 @@ build CMakeFiles\calculator_tests.dir\tests\test_calculator.cpp.obj: CXX_COMPILE
   TARGET_COMPILE_PDB = CMakeFiles\calculator_tests.dir\
   TARGET_PDB = calculator_tests.pdb
 
+build CMakeFiles\calculator_tests.dir\tests\isEven.cpp.obj: CXX_COMPILER__calculator_tests_Debug ..\..\..\tests\isEven.cpp || cmake_object_order_depends_target_calculator_tests
+  FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++17
+  INCLUDES = -I..\..\..\src -I_deps\googletest-src\googletest\include -I_deps\googletest-src\googletest
+  OBJECT_DIR = CMakeFiles\calculator_tests.dir
+  OBJECT_FILE_DIR = CMakeFiles\calculator_tests.dir\tests
+  TARGET_COMPILE_PDB = CMakeFiles\calculator_tests.dir\
+  TARGET_PDB = calculator_tests.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target calculator_tests
@@ -118,7 +126,7 @@ build CMakeFiles\calculator_tests.dir\tests\test_calculator.cpp.obj: CXX_COMPILE
 #############################################
 # Link the executable calculator_tests.exe
 
-build calculator_tests.exe calculator_tests[1]_tests.cmake: CXX_EXECUTABLE_LINKER__calculator_tests_Debug CMakeFiles\calculator_tests.dir\tests\test_calculator.cpp.obj | calculator_lib.lib lib\gtest_main.lib lib\gtest.lib || calculator_lib.lib lib\gtest.lib lib\gtest_main.lib
+build calculator_tests.exe calculator_tests[1]_tests.cmake: CXX_EXECUTABLE_LINKER__calculator_tests_Debug CMakeFiles\calculator_tests.dir\tests\test_calculator.cpp.obj CMakeFiles\calculator_tests.dir\tests\isEven.cpp.obj | calculator_lib.lib lib\gtest_main.lib lib\gtest.lib || calculator_lib.lib lib\gtest.lib lib\gtest_main.lib
   FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = calculator_lib.lib  lib\gtest_main.lib  lib\gtest.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib

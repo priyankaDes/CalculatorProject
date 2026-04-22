@@ -3,7 +3,12 @@
 
 TEST(CalculatorTest, Add) {
     Calculator c;
-    EXPECT_EQ(c.add(2, 3), 5);
+    EXPECT_EQ(c.add(2, 3), 15);
+    EXPECT_EQ(offset, 10);
+    offset = 100;
+    EXPECT_EQ(c.add(2, 3), 15);
+    EXPECT_EQ(offset, 100);
+
 }
 
 TEST(CalculatorTest, Sub) {
@@ -14,6 +19,7 @@ TEST(CalculatorTest, Sub) {
 TEST(CalculatorTest, Mul) {
     Calculator c;
     EXPECT_EQ(c.mul(4, 3), 12);
+   
 }
 
 TEST(CalculatorTest, Div) {
@@ -23,6 +29,8 @@ TEST(CalculatorTest, Div) {
 
 TEST(CalculatorTest, Fib) {
     Calculator c;
+   
     EXPECT_EQ(c.fib(6),8);
+
 
 }

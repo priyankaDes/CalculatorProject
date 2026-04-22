@@ -15,6 +15,13 @@ FetchContent_Declare(
 set(INSTALL_GTEST OFF)
 FetchContent_MakeAvailable(googletest)
 
+FetchContent_Declare(
+  nlohmann_json
+  URL https://github.com/nlohmann/json/releases/download/v3.11.3/json.hpp
+  DOWNLOAD_NO_EXTRACT TRUE
+)
+FetchContent_MakeAvailable(nlohmann_json)
+
 enable_testing()
 
 # Our library
@@ -30,6 +37,12 @@ target_include_directories(calculator_lib PUBLIC
 add_executable(calculator_tests
     tests/test_calculator.cpp
     tests/isEven.cpp
+    tests/jsonTest.cpp
+)
+
+target_include_directories(calculator_tests
+    PRIVATE
+        ${nlohmann_json_SOURCE_DIR}
 )
 
 target_link_libraries(calculator_tests

@@ -1,0 +1,26 @@
+{
+    "test": 
+    [
+        {
+            "name": "Test 1",
+            "description": "This is the first test case.",
+            "input": {
+                "value": 10
+            },
+            "expected_output": {
+            "result": 20
+            }
+        },
+
+        {
+            "name": "Test 2",
+            "description": "This is the second test case.",
+            "input": {
+                "value": 5
+            },
+            "expected_output": {
+                "result": 10
+            }
+        }
+    ]
+}

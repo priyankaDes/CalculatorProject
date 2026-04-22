@@ -1,40 +1,47 @@
-Start testing: Dec 16 11:46 Pacific Standard Time
+Start testing: Mar 11 09:36 Pacific Daylight Time
 ----------------------------------------------------------
-1/5 Testing: CalculatorTest.Add
-1/5 Test: CalculatorTest.Add
+1/10 Testing: CalculatorTest.Add
+1/10 Test: CalculatorTest.Add
 Command: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/Debug/calculator_tests.exe" "--gtest_filter=CalculatorTest.Add" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build
-"CalculatorTest.Add" start time: Dec 16 11:46 Pacific Standard Time
+"CalculatorTest.Add" start time: Mar 11 09:36 Pacific Daylight Time
 Output:
 ----------------------------------------------------------
-Running main() from C:\Users\priyanka.deshmukh\Documents\CalculatorProject\build\_deps\googletest-src\googletest\src\gtest_main.cc
 Note: Google Test filter = CalculatorTest.Add
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
 [----------] 1 test from CalculatorTest
 [ RUN      ] CalculatorTest.Add
-[       OK ] CalculatorTest.Add (0 ms)
+C:\Users\priyanka.deshmukh\Documents\CalculatorProject\tests\test_calculator.cpp(9): error: Expected equality of these values:
+  c.add(2, 3)
+    Which is: 105
+  15
+
+[  FAILED  ] CalculatorTest.Add (0 ms)
 [----------] 1 test from CalculatorTest (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 1 test.
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] CalculatorTest.Add
+
+ 1 FAILED TEST
 <end of output>
-Test time =   0.03 sec
+Test time =   0.07 sec
 ----------------------------------------------------------
-Test Passed.
-"CalculatorTest.Add" end time: Dec 16 11:46 Pacific Standard Time
+Test Failed.
+"CalculatorTest.Add" end time: Mar 11 09:36 Pacific Daylight Time
 "CalculatorTest.Add" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/5 Testing: CalculatorTest.Sub
-2/5 Test: CalculatorTest.Sub
+2/10 Testing: CalculatorTest.Sub
+2/10 Test: CalculatorTest.Sub
 Command: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/Debug/calculator_tests.exe" "--gtest_filter=CalculatorTest.Sub" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build
-"CalculatorTest.Sub" start time: Dec 16 11:46 Pacific Standard Time
+"CalculatorTest.Sub" start time: Mar 11 09:36 Pacific Daylight Time
 Output:
 ----------------------------------------------------------
-Running main() from C:\Users\priyanka.deshmukh\Documents\CalculatorProject\build\_deps\googletest-src\googletest\src\gtest_main.cc
 Note: Google Test filter = CalculatorTest.Sub
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
@@ -47,21 +54,20 @@ Note: Google Test filter = CalculatorTest.Sub
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"CalculatorTest.Sub" end time: Dec 16 11:46 Pacific Standard Time
+"CalculatorTest.Sub" end time: Mar 11 09:36 Pacific Daylight Time
 "CalculatorTest.Sub" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/5 Testing: CalculatorTest.Mul
-3/5 Test: CalculatorTest.Mul
+3/10 Testing: CalculatorTest.Mul
+3/10 Test: CalculatorTest.Mul
 Command: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/Debug/calculator_tests.exe" "--gtest_filter=CalculatorTest.Mul" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build
-"CalculatorTest.Mul" start time: Dec 16 11:46 Pacific Standard Time
+"CalculatorTest.Mul" start time: Mar 11 09:36 Pacific Daylight Time
 Output:
 ----------------------------------------------------------
-Running main() from C:\Users\priyanka.deshmukh\Documents\CalculatorProject\build\_deps\googletest-src\googletest\src\gtest_main.cc
 Note: Google Test filter = CalculatorTest.Mul
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
@@ -74,21 +80,20 @@ Note: Google Test filter = CalculatorTest.Mul
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.05 sec
 ----------------------------------------------------------
 Test Passed.
-"CalculatorTest.Mul" end time: Dec 16 11:46 Pacific Standard Time
+"CalculatorTest.Mul" end time: Mar 11 09:36 Pacific Daylight Time
 "CalculatorTest.Mul" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-4/5 Testing: CalculatorTest.Div
-4/5 Test: CalculatorTest.Div
+4/10 Testing: CalculatorTest.Div
+4/10 Test: CalculatorTest.Div
 Command: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/Debug/calculator_tests.exe" "--gtest_filter=CalculatorTest.Div" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build
-"CalculatorTest.Div" start time: Dec 16 11:46 Pacific Standard Time
+"CalculatorTest.Div" start time: Mar 11 09:36 Pacific Daylight Time
 Output:
 ----------------------------------------------------------
-Running main() from C:\Users\priyanka.deshmukh\Documents\CalculatorProject\build\_deps\googletest-src\googletest\src\gtest_main.cc
 Note: Google Test filter = CalculatorTest.Div
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
@@ -101,47 +106,176 @@ Note: Google Test filter = CalculatorTest.Div
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.03 sec
+Test time =   0.04 sec
 ----------------------------------------------------------
 Test Passed.
-"CalculatorTest.Div" end time: Dec 16 11:46 Pacific Standard Time
+"CalculatorTest.Div" end time: Mar 11 09:36 Pacific Daylight Time
 "CalculatorTest.Div" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-5/5 Testing: CalcultorTest.fib
-5/5 Test: CalcultorTest.fib
-Command: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/Debug/calculator_tests.exe" "--gtest_filter=CalcultorTest.fib" "--gtest_also_run_disabled_tests"
+5/10 Testing: CalculatorTest.Fib
+5/10 Test: CalculatorTest.Fib
+Command: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/Debug/calculator_tests.exe" "--gtest_filter=CalculatorTest.Fib" "--gtest_also_run_disabled_tests"
 Directory: C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build
-"CalcultorTest.fib" start time: Dec 16 11:46 Pacific Standard Time
+"CalculatorTest.Fib" start time: Mar 11 09:36 Pacific Daylight Time
 Output:
 ----------------------------------------------------------
-Running main() from C:\Users\priyanka.deshmukh\Documents\CalculatorProject\build\_deps\googletest-src\googletest\src\gtest_main.cc
-Note: Google Test filter = CalcultorTest.fib
+Note: Google Test filter = CalculatorTest.Fib
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 1 test from CalcultorTest
-[ RUN      ] CalcultorTest.fib
-C:\Users\priyanka.deshmukh\Documents\CalculatorProject\tests\test_calculator.cpp(26): error: Expected equality of these values:
-  c.fib(6)
-    Which is: 8
-  9
+[----------] 1 test from CalculatorTest
+[ RUN      ] CalculatorTest.Fib
+[       OK ] CalculatorTest.Fib (0 ms)
+[----------] 1 test from CalculatorTest (0 ms total)
 
-[  FAILED  ] CalcultorTest.fib (0 ms)
-[----------] 1 test from CalcultorTest (0 ms total)
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"CalculatorTest.Fib" end time: Mar 11 09:36 Pacific Daylight Time
+"CalculatorTest.Fib" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/10 Testing: IsEvenTest.EvenNumber
+6/10 Test: IsEvenTest.EvenNumber
+Command: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/Debug/calculator_tests.exe" "--gtest_filter=IsEvenTest.EvenNumber" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build
+"IsEvenTest.EvenNumber" start time: Mar 11 09:36 Pacific Daylight Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = IsEvenTest.EvenNumber
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from IsEvenTest
+[ RUN      ] IsEvenTest.EvenNumber
+[       OK ] IsEvenTest.EvenNumber (0 ms)
+[----------] 1 test from IsEvenTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"IsEvenTest.EvenNumber" end time: Mar 11 09:36 Pacific Daylight Time
+"IsEvenTest.EvenNumber" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/10 Testing: IsEvenTest.OddNumber
+7/10 Test: IsEvenTest.OddNumber
+Command: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/Debug/calculator_tests.exe" "--gtest_filter=IsEvenTest.OddNumber" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build
+"IsEvenTest.OddNumber" start time: Mar 11 09:36 Pacific Daylight Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = IsEvenTest.OddNumber
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from IsEvenTest
+[ RUN      ] IsEvenTest.OddNumber
+[       OK ] IsEvenTest.OddNumber (0 ms)
+[----------] 1 test from IsEvenTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"IsEvenTest.OddNumber" end time: Mar 11 09:36 Pacific Daylight Time
+"IsEvenTest.OddNumber" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/10 Testing: IsEvenTest.Zero
+8/10 Test: IsEvenTest.Zero
+Command: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/Debug/calculator_tests.exe" "--gtest_filter=IsEvenTest.Zero" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build
+"IsEvenTest.Zero" start time: Mar 11 09:36 Pacific Daylight Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = IsEvenTest.Zero
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from IsEvenTest
+[ RUN      ] IsEvenTest.Zero
+[       OK ] IsEvenTest.Zero (0 ms)
+[----------] 1 test from IsEvenTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"IsEvenTest.Zero" end time: Mar 11 09:36 Pacific Daylight Time
+"IsEvenTest.Zero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/10 Testing: IsEvenTest.NegativeNumbers
+9/10 Test: IsEvenTest.NegativeNumbers
+Command: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/Debug/calculator_tests.exe" "--gtest_filter=IsEvenTest.NegativeNumbers" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build
+"IsEvenTest.NegativeNumbers" start time: Mar 11 09:36 Pacific Daylight Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = IsEvenTest.NegativeNumbers
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from IsEvenTest
+[ RUN      ] IsEvenTest.NegativeNumbers
+[       OK ] IsEvenTest.NegativeNumbers (0 ms)
+[----------] 1 test from IsEvenTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"IsEvenTest.NegativeNumbers" end time: Mar 11 09:36 Pacific Daylight Time
+"IsEvenTest.NegativeNumbers" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/10 Testing: TestJson.ParseJson
+10/10 Test: TestJson.ParseJson
+Command: "C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build/Debug/calculator_tests.exe" "--gtest_filter=TestJson.ParseJson" "--gtest_also_run_disabled_tests"
+Directory: C:/Users/priyanka.deshmukh/Documents/CalculatorProject/build
+"TestJson.ParseJson" start time: Mar 11 09:36 Pacific Daylight Time
+Output:
+----------------------------------------------------------
+Note: Google Test filter = TestJson.ParseJson
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestJson
+[ RUN      ] TestJson.ParseJson
+C:\Users\priyanka.deshmukh\Documents\CalculatorProject\tests\jsonTest.cpp(20): error: Value of: file.is_open()
+  Actual: false
+Expected: true
+Failed to open the JSON file.
+
+[  FAILED  ] TestJson.ParseJson (0 ms)
+[----------] 1 test from TestJson (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 0 tests.
 [  FAILED  ] 1 test, listed below:
-[  FAILED  ] CalcultorTest.fib
+[  FAILED  ] TestJson.ParseJson
 
  1 FAILED TEST
 <end of output>
-Test time =   0.03 sec
+Test time =   0.06 sec
 ----------------------------------------------------------
 Test Failed.
-"CalcultorTest.fib" end time: Dec 16 11:46 Pacific Standard Time
-"CalcultorTest.fib" time elapsed: 00:00:00
+"TestJson.ParseJson" end time: Mar 11 09:36 Pacific Daylight Time
+"TestJson.ParseJson" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Dec 16 11:46 Pacific Standard Time
+End testing: Mar 11 09:36 Pacific Daylight Time
