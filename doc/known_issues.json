@@ -1,0 +1,210 @@
+[
+  {
+    "case": "SFDC-79904 / nVista 2P — Laser is not turned on (mid-session)",
+    "software_version": "1.0.1-95fa5ae (early access)",
+    "issue": "Customer sees 'Laser is not turned on' critical warning mid-session during triggered/BNC-triggered recordings. Also reports 'System is loading' freeze and inverted/displaced image display (~1 in 20 recordings).",
+    "log_evidence": {
+      "hub.log_line_85518": "sendErrorNotification: {level:critical, message:'Laser is not turned on', module:record}",
+      "hub.log_line_85514": "setLaserOn Cannot communicate with Laser (empty Read Frame from laser controller UART)",
+      "hub.log_glitch_lines": [1232, 52358, 85630],
+      "glitch_pattern": "Get Laser status failed with error: Frame size too small → mqttLoopLaser com. glitch or error in getting status",
+      "mppc_errors": "All mppcResetHandler reset:true calls fail with Internal ErrorCode 0x50"
+    },
+    "cause": "Two-layered issue: (1) A transient UART/serial communication failure between hub_manager and the laser controller causes an empty read frame precisely when a triggered-recording start is attempted, resulting in the false 'Laser is not turned on' notification. (2) Corrupted browser local storage / frontend session state (confirmed by engineering) also contributes to the false notification. Issues 1 and 3 (display artifacts) are known software bugs fixed in the production release.",
+    "fix": {
+      "immediate_workaround": [
+        "Clear browser cache: Caps Lock ON → Ctrl+Shift+I → Application → Local Storage → 127.0.0.1 → Clear → Ctrl+Shift+R",
+        "Or: Session → Edit Session → Reset Session",
+        "Or: Press Play button to re-initialize pipeline (re-establishes laser communication)",
+        "If notification appears during recording: clear the notification and continue — recording is unaffected"
+      ],
+      "permanent_fix": "Upgrade to production software version (issues 1 and 3 are fixed in production build)"
+    },
+    "agent_diagnosis_accuracy": "Partial match. Agent correctly identified: (1) transient UART comm glitch in hub.log, (2) laser hardware physically fine, (3) press Play / reinitialize as workaround, (4) software version issue. Agent missed: browser local storage corruption as a contributing cause, and that engineering confirmed a software-level fix in production.",
+    "resolved": true,
+    "resolved_date": "2025-12-16"
+  },
+  {
+    "token": "ISX-20260126-0001",
+    "case": "CS-1069 / nVista 2P — Laser thermal shutdown (10-30 min recordings)",
+    "product": "nVista 2P",
+    "software_version": "1.2.0 (build 20250818120758)",
+    "tags": ["laser", "thermal", "shutdown", "ventilation", "spark", "hardware", "environmental"],
+    "issue": "Laser automatically turns off after 10-30 minutes during continuous recordings. Red power light on laser head goes off, FOV goes dark. Never occurs in recordings <10 min. Restarting system temporarily fixes issue. Red emission indicator light above emergency stop button does not reliably turn on during Preview/Record mode.",
+    "log_evidence": {
+      "hub.log_lines_6-88": "Laser UART communication initialized successfully at startup with normal Spark protocol exchanges",
+      "hub.log_lines_295500-295561": "Recording proceeding normally (frames 18726-18734 acquired) at time of dump — no software errors",
+      "thermal.html": "CPU temperature 42°C, ACPI thermal 27.8°C — system CPU not critical but elevated",
+      "spark_diagnosis": "Pascal Dupriez confirmed: laser shuts down due to thermal protection system — insufficient cart ventilation causes internal temp to exceed 30°C operating threshold",
+      "customer_pattern": "Shuts down every time in 25-30 min recordings, never in <10 min recordings (classic thermal buildup pattern)"
+    },
+    "cause": "Spark laser internal thermal protection system triggers automatic safety shutdown due to insufficient ventilation in the system cart. Laser generates significant heat during operation; without adequate front-to-back airflow and side clearance, internal temperature exceeds the laser's 30°C operating threshold after 10-30 minutes of continuous use. This is a hardware/environmental issue, not a software defect.",
+    "fix": {
+      "immediate_workaround": [
+        "Remove front and back panels from system cart to enable natural convection airflow",
+        "Ensure sides of cart have sufficient clearance (>6 inches) for air circulation",
+        "For recordings >20 minutes, always start with cart panels removed",
+        "If lab ambient temperature exceeds 27°C, consider additional cooling measures"
+      ],
+      "permanent_fix": "Engineering solution: Add ventilation holes/grilles in front of laser cooling fans (as recommended by Spark). Consider forced ventilation (exhaust fans) for high-temperature environments. Customer confirmed issue resolved after removing cart panels."
+    },
+    "agent_diagnosis_accuracy": "To be evaluated after real-world deployment. Diagnosis based on: (1) Spark laser vendor analysis of proprietary thermal logs, (2) customer-confirmed symptom pattern matching thermal buildup, (3) verified solution (panel removal), (4) clean Inscopix software logs ruling out software cause.",
+    "resolved": true,
+    "resolved_date": "2026-03-05"
+  },
+  {
+    "token": "ISX-20251124-0002",
+    "case": "CS-1032 / nVista 2P — Black FOV / Low power output (optical path degradation)",
+    "product": "nVista 2P",
+    "software_version": "1.2.0 (production)",
+    "tags": ["optical", "alignment", "fiber", "dirty-lens", "power-loss", "hardware", "black-fov"],
+    "issue": "Completely black FOV in vivo despite lens cap fluorescence being visible (but extremely dim). Sensor working normally (noise visible at laser off, gain 9). Customer switched from 1x4mm to 0.5x6.1mm integrated lens. Previously could see scar tissue and noise; after system upgrade, FOV completely black under all settings tested (laser power 20-45%, gain 5-max). Laser alignment performed on install day but could not achieve full recommended power.",
+    "log_evidence": {
+      "lens_cap_snapshots": "Images 1-4 at various settings (LP 2.8-5.9%, gain 6-9, focus 500) show extremely low intensity — nearly black",
+      "image_analysis": "Brightness-enhanced images show uniform low signal across entire FOV; mean intensity ~50% of expected spec",
+      "sensor_test": "Image 4 (laser off, gain 9) shows faint sensor noise pattern → sensor functional",
+      "engineering_assessment": "Power level readings and image mean intensities indicate power out of miniscope is below spec. Alignment in miniscope is centered and correct. Issue is optical path throughput, not scan/sensor.",
+      "customer_comparison": "Previously used 1x4mm lens at LP 21-25%, gain ~7.5. New 0.5x6.1mm lens has 20-30% less throughput but should still show noise/signal — complete absence indicates additional optical issue."
+    },
+    "cause": "Two-factor optical path degradation: (1) Dirty objective lens blocking/scattering light, reducing throughput by ~50%. (2) Fiber misalignment reducing laser-to-fiber coupling efficiency. Combined effect: power output drops below threshold needed to excite fluorescence or even produce visible noise in tissue. Sensor, scan mirror, and miniscope internal alignment were all functional — issue was external optical coupling.",
+    "fix": {
+      "immediate_workaround": [
+        "Attempt higher laser power (50-70% range) to compensate for throughput loss — may allow data collection short-term",
+        "Caution: Monitor for tissue damage at elevated power levels; customer reported damage at 35% with 1x4mm lens",
+        "This is temporary only — system remains out of spec and requires service"
+      ],
+      "permanent_fix": "FSC service visit: (1) Clean objective lens thoroughly with appropriate lens cleaning solution and technique. (2) Realign laser-to-fiber coupling to optimize power throughput. (3) Verify power output meets specification before releasing system. Resolution confirmed by FSC: 'The objective lens was dirty and was cleaned; the fiber was out of alignment and realigned.'"
+    },
+    "agent_diagnosis_accuracy": "To be evaluated. Diagnostic approach: (1) Request lens cap images at standardized settings to quantify throughput, (2) compare image intensity to spec baselines, (3) test sensor independently (laser off, high gain) to isolate optical vs sensor issues, (4) if sensor works but FOV black → optical path problem (dirty lens, misalignment, or fiber damage), (5) uniform darkness across FOV rules out localized damage or scan issues.",
+    "resolved": true,
+    "resolved_date": "2026-01-14"
+  },
+  {
+    "token": "ISX-20251112-0003",
+    "case": "CS-1024 / nVista 2P — White screen crash on boot (frontend multiplane config bug)",
+    "product": "nVista 2P",
+    "software_version": "1.2.0 (build 20250818120758)",
+    "tags": ["software", "frontend", "crash", "white-screen", "multiplane", "browser-cache", "null-pointer", "mqtt"],
+    "issue": "System stuck on white screen after boot up. No UI visible, complete frontend freeze. Happens on system startup. Customer reports white screen on loading.",
+    "log_evidence": {
+      "frontend.log_line_245-1631": "Multiple session snapshots show normal multiplane config: {mode:'single-stack',params:{bottomFocusPosition:500,numPlanes:4,planes:[190,330],numFrames:10,enablezStackAvg:true}}",
+      "engineering_analysis_pragma": "Frontend sent invalid multiplane/config/set MQTT payload missing critical fields. Invalid payload: {mode:'single-stack',parameters:{bottomFocusPosition:1000,numStacks:20,topFocusPosition:0}} — missing numPlanes, planes array, numFrames, enablezStackAvg",
+      "backend_response": "Backend correctly rejected invalid payload due to missing required fields",
+      "frontend_crash": "Frontend TypeError: Cannot read properties of null — frontend code tried to access properties on null/undefined response from backend after invalid config was rejected",
+      "hub.log": "MQTT multiplane/config/set subscriptions and publishes present throughout — backend communication functional",
+      "screenshot_evidence": "Browser console shows TypeError with null reference in frontend React component handling multiplane configuration"
+    },
+    "cause": "Frontend software bug: When sending multiplane configuration via MQTT (multiplane/config/set topic), the frontend occasionally generates a malformed payload with incorrect field names ('numStacks' instead of 'numPlanes', 'parameters' instead of 'params') and missing required fields (planes array, numFrames, enablezStackAvg). The backend correctly rejects this invalid payload. However, the frontend lacks proper null-checking/error handling when processing the backend response, causing a TypeError when attempting to read properties of the null/rejected response. This unhandled exception crashes the React component tree, resulting in the white screen of death. Root cause: inadequate input validation and error boundary handling in frontend multiplane configuration logic.",
+    "fix": {
+      "immediate_workaround": [
+        "Clear browser cache: Ctrl+Shift+I → Application → Local Storage → 127.0.0.1 → Clear All → Hard refresh (Ctrl+Shift+R)",
+        "Or: Clear browser cache via browser settings → Clear browsing data → Cached images and files",
+        "Or: Restart system and browser completely to reset frontend state",
+        "This clears corrupted cached session data that triggers the bug"
+      ],
+      "permanent_fix": "Software patch required (tracked by engineering team Pragma): (1) Fix frontend multiplane config generator to always produce valid payload with correct field names and all required fields. (2) Add robust null/error handling in frontend MQTT response handlers to prevent crash when backend rejects invalid config. (3) Implement React error boundary around multiplane config component to catch TypeError and display user-friendly error instead of white screen. (4) Add frontend validation to verify payload schema before sending to backend."
+    },
+    "agent_diagnosis_accuracy": "To be evaluated. Diagnostic approach: (1) White screen with no UI = frontend crash, not backend issue. (2) Check frontend.log for JavaScript TypeError or uncaught exceptions. (3) If TypeError with null reference → null-pointer dereference in frontend code. (4) Check hub.log for MQTT communication errors or payload validation failures. (5) If backend logs show rejected/invalid MQTT messages → frontend sending bad data. (6) Resolution: clear browser cache (removes corrupted frontend state) + long-term: software patch for frontend validation.",
+    "resolved": true,
+    "resolved_date": "2025-11-14"
+  },
+  {
+    "token": "ISX-20251013-0004",
+    "case": "CS-985 / nVista 2P — Intermittent laser detection failure + black FOV (faulty USB cable)",
+    "product": "nVista 2P",
+    "software_version": "1.2.0 (build 20250818120758)",
+    "tags": ["hardware", "usb", "laser", "intermittent", "communication", "cable", "black-fov", "detector-trip"],
+    "issue": "Intermittent laser detection failure: laser not detected by PC after power-on, requires multiple restarts. When laser does connect, preview shows black FOV despite cells being visible the day before. Issue is intermittent, not constant. Related ticket CS-978: after using multiplane/crop functions, FOV goes black, 'Laser Radiation On' notification intermittently active whether laser truly on or not.",
+    "log_evidence": {
+      "hub.log_line_852": "[E] laserPowerHandler Cannot communicate with Laser",
+      "hub.log_line_867": "[E] laserGDDHandler Cannot communicate with Laser",
+      "hub.log_line_899": "[E] laserEnableHandler Cannot communicate with Laser",
+      "hub.log_line_1085": "[E] Set Laser power mode failed with error: Frame size too small",
+      "hub.log_line_3896": "[E] Get Laser status failed with error: Frame size too small",
+      "hub.log_pattern": "Connection checks succeed (checkConnection succeeded) then immediately fail with empty R Frame and R Payload — indicates USB communication dropping mid-transaction",
+      "hub.log_lines_850-920": "sparkLaser sendCommand shows Write Frame sent, but Read Frame returns empty → UART frames not arriving from laser controller",
+      "syslog_usb": "External USB flash drive (SanDisk) plugged in during session — potential USB bandwidth/hub contention",
+      "error_frequency": "Multiple occurrences throughout session at lines 852, 867, 899, 1085, 3553, 3896, 4740, 4755, 6631, 6646, 6679"
+    },
+    "cause": "Faulty USB cable between Spark laser controller and Inscopix PC causing intermittent serial communication failures. The USB cable has intermittent connectivity (loose/damaged connector or degraded cable), resulting in: (1) Incomplete/corrupted UART frames ('Frame size too small' errors when laser responses are truncated). (2) Empty read frames (R Frame with no payload) when USB drops mid-transaction. (3) Complete communication loss requiring system restart to re-establish USB connection. Secondary contributing factor: External USB devices (flash drives) can exacerbate issue through USB hub bandwidth contention or power draw. Also: MPPC detector tripping due to excessive ambient light when miniscope not properly covered/docked — causes separate black FOV issue unrelated to laser comms.",
+    "fix": {
+      "immediate_workaround": [
+        "Power on laser BEFORE computer to establish USB connection early (reduces race condition on startup)",
+        "Keep miniscope cover on objective OR properly dock to baseplate — prevents MPPC detector trip from ambient light",
+        "Reset detector gain by clicking Loop Arrow icon if FOV goes black (resets tripped detector)",
+        "Check laser interlock connection on back of controller is firmly seated",
+        "Disconnect external USB drives from Inscopix PC (reduces USB hub contention)",
+        "Verify no errors in Spark software when IDAS reports laser issues",
+        "System restart may temporarily restore connection if USB resets properly"
+      ],
+      "permanent_fix": "Replace USB cable from laser controller to Inscopix PC with high-quality shielded USB cable. Verified resolution from CS-978: 'We replaced the USB cable from the laser to the PC and the issue went away.' Ensure cable is: (1) properly rated for USB 2.0/3.0 data (not power-only cable), (2) shielded to prevent interference, (3) not longer than necessary (max 3m for USB 2.0, 1m for USB 3.0), (4) connectors firmly seated and not loose."
+    },
+    "agent_diagnosis_accuracy": "To be evaluated. Diagnostic approach: (1) Intermittent 'Cannot communicate with Laser' errors → USB/serial communication issue, not laser hardware. (2) 'Frame size too small' errors → incomplete/truncated serial frames = USB signal integrity problem. (3) Empty R Frame after W Frame sent → USB dropping mid-transaction = cable/connector issue. (4) Issue resolves temporarily with restart → USB reset clears condition = intermittent hardware fault. (5) Pattern repeats throughout session → persistent underlying hardware problem. (6) Check syslog for USB device errors, disconnects, or enumeration failures. (7) Distinguish from MPPC detector trip (separate black FOV cause): detector trip shows 'detector gain reset needed', USB issue shows laser communication errors.",
+    "resolved": true,
+    "resolved_date": "2025-10-16"
+  },
+  {
+    "token": "ISX-20250916-0005",
+    "case": "CS-960 / nVista 2P — Computer boot failure (wrong DisplayPort used)",
+    "product": "nVista 2P",
+    "software_version": "1.2.0 (build 20250507173529)",
+    "tags": ["hardware", "configuration", "boot-failure", "display", "nvidia", "graphics-card", "user-error"],
+    "issue": "System fails to boot, hangs with boot error messages. Intermittent: sometimes boots, sometimes doesn't. Unplugging monitor allows boot most (but not all) times. When system successfully boots and is restarted, reverts back to monitor-related boot error. System also froze twice mid-recording requiring hard reset. Customer not connected to internet or external devices, system stationary.",
+    "log_evidence": {
+      "boot_error_screen_1": "snd_hda_codec_hdmi hdaudioC0D2: Monitor plugged-in, Failed to power up codec ret=[-13]",
+      "boot_error_screen_2": "Invalid 7-bit I2C address 0xff; nvme0n1p2: recovering journal; sd a:0:0:0: [sda] Asking for cache data failed; sd a:0:0:0: [sda] Assuming drive cache: write through",
+      "dmesg_line_2.331694": "snd_hda_codec_hdmi hdaudioC0D2: Monitor plugged-in, Failed to power up codec ret=[-13] — HDMI audio codec initialization failure on integrated graphics",
+      "dmesg_nvidia": "NVIDIA driver loads successfully (0000:01:00.0), nvidia-drm initialized",
+      "dmesg_intel": "Intel i915 integrated graphics also present, multiple HDMI/DP detected on both Intel and NVIDIA",
+      "physical_inspection": "DisplayPort cable connected to top port on computer (integrated graphics) instead of bottom port (NVIDIA card). MPPC/sync/clock card noted slightly loose but not causing issue.",
+      "hdmi_test": "Switching to HDMI cable resulted in similar error but IDAS loaded after ~20 seconds delay"
+    },
+    "cause": "Hardware misconfiguration: Monitor DisplayPort cable connected to wrong port on computer. Customer used top DisplayPort (Intel integrated graphics) instead of bottom DisplayPort (NVIDIA dedicated graphics card). The nVista 2P system requires NVIDIA graphics card for proper display initialization and real-time image processing. When monitor connected to wrong port: (1) System BIOS/bootloader attempts to initialize display using Intel integrated graphics. (2) HDMI audio codec fails to initialize properly (ret=[-13] error). (3) Boot process hangs waiting for proper graphics initialization. (4) System expects NVIDIA card to be active, causing boot conflicts. Unplugging monitor temporarily bypasses display initialization, allowing headless boot, but issue returns on restart when display re-detected.",
+    "fix": {
+      "immediate_workaround": [
+        "Unplug monitor power cable from back of monitor (not computer) to force headless boot — allows system to bypass display init",
+        "Or: Switch to HDMI cable temporarily (~20 sec delay but IDAS will load)",
+        "Hard reset if system frozen: Hold power button until shutdown, wait 15 seconds, power on",
+        "Disconnect any external USB drives during troubleshooting"
+      ],
+      "permanent_fix": "Connect DisplayPort cable to CORRECT port on computer: Use bottom DisplayPort that connects to NVIDIA graphics card (NOT top port which is integrated graphics). Verify: (1) Locate NVIDIA card at back of computer (usually lower position), (2) Connect DisplayPort to this port only, (3) Verify IDAS loads normally without delays, (4) Test restart to confirm boot is stable. Critical: NVIDIA port is required for proper graphics initialization and real-time image processing — integrated graphics insufficient for system requirements."
+    },
+    "agent_diagnosis_accuracy": "To be evaluated. Diagnostic approach: (1) Boot failure with monitor-related errors → display/graphics initialization issue. (2) 'Failed to power up codec' error → HDMI/DP audio codec problem = wrong display port. (3) System boots when monitor unplugged → display init causing hang, not disk/memory failure. (4) dmesg shows both Intel and NVIDIA graphics → dual graphics system, must use correct port. (5) Check lspci for graphics cards, verify which port customer using. (6) System freezing mid-recording secondary symptom (may be related to graphics overhead if using wrong port). (7) Not a hardware failure — configuration error requiring user re-connection to correct port.",
+    "resolved": true,
+    "resolved_date": "2025-09-30"
+  },
+  {
+    "token": "ISX-20260424-0006",
+    "case": "00081768 / CS-1127 / nVue 2.0 — Miniscope not detected",
+    "product": "nVue 2.0",
+    "software_version": "2.5.0-35bb932",
+    "tags": ["nVue", "USB", "I2C", "hardware", "cable", "connection", "detection", "physical-disconnect", "sensor-failure"],
+    "issue": "DAQ fails to recognize the nVue miniscope after working without issues since purchase. Streaming failures, miniscope shows as 'unknown' in System Info, Stream status RED (failed). Issue started over past few days. Lab has been using miniscope without problems since purchase last year.",
+    "log_evidence": {
+      "dmesg.html_lines_21-91": "Continuous I2C NACK errors repeating every ~2 seconds: 'tegra-i2c 3180000.i2c: no acknowledge from address 0x10' (AR0144 sensor), 'tegra-i2c 3180000.i2c: no acknowledge from address 0x40' (Inscopix device controller)",
+      "dmesg.html_line_791": "ar0144 2-0010: Inscopix AR0144 sensor was not detected",
+      "dmesg.html_line_932": "inscopix_dev 2-0040: Failed writing to reg: 0x4D val 192",
+      "dmesg.html_line_1035": "ar0144 2-0010: ar0144_write_reg:i2c write failed, 0x301A = 0x00D9",
+      "dmesg.html_line_1077": "ar0144 2-0010: ar0144_sensor_init: error setting stream",
+      "sensor.log_line_194": "Sensor : Sensor Not Connected, Please Connect the Camera",
+      "sensor.log_lines_273-282": "Repeating every ~2 seconds: 'Sensor Not Connected, Please Connect the Camera'",
+      "lsusb_verbose.html": "No nVue miniscope USB device detected — only USB root hubs enumerated (Linux Foundation vendor ID 0x1d6b). Expected Inscopix vendor ID (0x0465) absent.",
+      "hardware.txt_line_29": "Frame_Counter: 0x00000000 and Frame_Counter[after 1 sec]: 0x00000000 — confirms no sensor data reaching FPGA despite ADP heartbeat incrementing normally",
+      "screenshot_system_info": "Displays 'Miniscope: unknown' and 'Stream' status RED (failed)"
+    },
+    "cause": "Physical disconnection or broken electrical connection between nVue 2.0 miniscope and DAQ. The I2C communication bus has completely failed, indicated by continuous 'no acknowledge' (NACK) errors from both the AR0144 image sensor (I2C address 0x10) and Inscopix device controller (I2C address 0x40). This prevents device enumeration, sensor initialization, and video streaming. The gradual onset ('worked fine since purchase, problem started over past few days') strongly suggests cable or connector degradation from repeated connect/disconnect cycles over the past year, rather than sudden hardware failure. Zero USB enumeration combined with I2C NACK pattern across multiple device addresses is diagnostic of physical disconnection.",
+    "fix": {
+      "immediate_workaround": [
+        "Verify physical USB-C connection: Disconnect cable from both miniscope and DAQ, inspect both connectors for bent pins/debris/oxidation, clean with isopropyl alcohol (90%+) if needed, firmly reconnect ensuring secure click/seating",
+        "Try replacement USB-C cable: Use known-good USB-C 3.0/3.1 cable (preferably Inscopix-supplied) that supports both data and power delivery",
+        "Try different DAQ USB port: Connect miniscope to alternate USB 3.0 port (typically blue) on DAQ, not USB 2.0",
+        "Power cycle system: After reconnecting cable, fully power cycle DAQ (not just software restart), wait 30 seconds before powering back on",
+        "Cross-test hardware if available: Test miniscope with different DAQ to isolate miniscope vs DAQ port failure; test different miniscope on same DAQ to confirm DAQ USB port functionality"
+      ],
+      "permanent_fix": "If cable replacement resolves issue: Replace customer's USB-C cable (cable wear from repeated connect/disconnect cycles). If miniscope fails on all DAQs/cables: Miniscope internal hardware failure → RMA required (possible PCB damage, I2C bus failure, or USB controller failure). If only specific DAQ port fails: DAQ USB port hardware failure → DAQ RMA required."
+    },
+    "agent_diagnosis_accuracy": "To be evaluated. Confidence: 95%. Diagnostic approach: (1) I2C 'no acknowledge' pattern repeating across multiple device addresses (0x10, 0x40) = physical bus failure. (2) Zero USB enumeration (no Inscopix vendor ID detected) = complete electrical disconnection. (3) Zero frame counter despite normal ADP heartbeat = sensor data not reaching FPGA. (4) Gradual onset timeline ('worked fine, problem started past few days') = cable/connector degradation, not sudden failure. 5% uncertainty: rare internal miniscope hardware failures (damaged I2C bus on PCB, failed USB controller) could present identically but unusual given described timeline.",
+    "resolved": true,
+    "resolved_date": "2026-04-24"
+  }
+]

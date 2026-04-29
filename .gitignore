@@ -1,24 +1,55 @@
-# Visual Studio
-.vs/
-*.vcxproj.user
-*.suo
-*.ipch
-*.db
-*.tlog
+# Environment files with actual passwords
+.env
 
-# Build folders
-build/
-out/
-Debug/
-Release/
+# Log files (keep structure, ignore actual logs)
+log/**/*.log
+log/**/*.txt
+log/**/dump-*
+log/**/*.html
 
-# CMake
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
+# Compressed archives
+*.zip
+*.tar.gz
+*.7z
 
-# Others
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Build artifacts (from mini2p-hub)
+mini2p-hub/build/
+mini2p-hub/external/isx-core
+mini2p-hub/lib-mcu/becore
+*.o
 *.obj
-*.pdb
 *.exe
+*.out
+*.so
 *.dll
+*.dylib
+*.a
+*.lib
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+venv/
+env/
+
+# Keep directory structure
+!log/.gitkeep
+!log/README.md

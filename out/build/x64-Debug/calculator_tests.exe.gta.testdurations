@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Executable>C:\Users\priyanka.deshmukh\Documents\CalculatorProject\out\build\x64-Debug\calculator_tests.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="CalculatorTest.Add" Duration="1" />
+    <TestDuration Test="CalculatorTest.Div" Duration="1" />
+    <TestDuration Test="CalculatorTest.Fib" Duration="1" />
+    <TestDuration Test="CalculatorTest.Mul" Duration="1" />
+    <TestDuration Test="CalculatorTest.Sub" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>

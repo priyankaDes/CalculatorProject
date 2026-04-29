@@ -1,0 +1,54 @@
+name: Validate Agent Configuration
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Validate known_issues.json
+      run: |
+        echo "Validating JSON syntax..."
+        python3 -m json.tool doc/known_issues.json > /dev/null
+        echo "✅ known_issues.json is valid"
+        
+    - name: Check agent definition exists
+      run: |
+        echo "Checking agent file..."
+        if [ -f ".github/agents/Inscopix Log Diagnostics Agent.agent.md" ]; then
+          echo "✅ Agent definition found"
+        else
+          echo "❌ Agent definition missing"
+          exit 1
+        fi
+        
+    - name: Verify directory structure
+      run: |
+        echo "Checking required directories..."
+        [ -d "doc" ] && echo "✅ doc/ exists" || exit 1
+        [ -d "log" ] && echo "✅ log/ exists" || exit 1
+        [ -d ".github/agents" ] && echo "✅ .github/agents/ exists" || exit 1
+        [ -d ".devcontainer" ] && echo "✅ .devcontainer/ exists" || exit 1
+        
+    - name: Check sample.env exists
+      run: |
+        if [ -f "sample.env" ]; then
+          echo "✅ sample.env template found"
+        else
+          echo "❌ sample.env missing"
+          exit 1
+        fi
+
+    - name: Summary
+      run: |
+        echo "================================"
+        echo "✅ All validation checks passed!"
+        echo "================================"

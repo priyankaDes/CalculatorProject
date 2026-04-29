@@ -1,0 +1,12 @@
+# Code Owners for Inscopix Diagnostics Agent
+# These users are automatically requested for review when changes are made
+
+# Agent configuration and behavior
+/.github/agents/ @priyanka-deshmukh
+
+# Knowledge base - requires review from senior support engineer
+/doc/known_issues.json @priyanka-deshmukh
+
+# Critical infrastructure
+/.devcontainer/ @priyanka-deshmukh
+/.gitignore @priyanka-deshmukh

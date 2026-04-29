@@ -1,0 +1,27 @@
+{
+  "name": "Inscopix Log Diagnostics Agent",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers/features/python:1": {
+      "version": "3.11"
+    }
+  },
+  
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "github.copilot",
+        "github.copilot-chat"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  },
+  
+  "postCreateCommand": "echo '✅ Inscopix Diagnostics Agent Ready! Open Copilot Chat and type: @Inscopix Log Diagnostics Agent'",
+  
+  "remoteUser": "vscode"
+}
